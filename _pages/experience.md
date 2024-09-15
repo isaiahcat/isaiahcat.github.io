@@ -1,6 +1,8 @@
 ---
-layout: page
+layout: single
+author_profile: true
 title: Experience
+permalink: /experience/
 ---
 
 ### Graduate Computer Science Teaching Assistant  
