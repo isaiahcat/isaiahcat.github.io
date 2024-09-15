@@ -2,9 +2,11 @@
 title: Education
 permalink: /education/
 toc: true
+toc_sticky: true
 ---
 
-## Master of Computer Science  
+## Universities
+### Master of Computer Science  
 **[Utah Valley University](https://www.uvu.edu/)**  
 *Graduated 2024 | Orem, UT*  
 GPA: 3.85
@@ -19,7 +21,7 @@ For more information, visit the [UVU MCS program page](https://www.uvu.edu/mcs/p
 
 ---
 
-## Bachelor of Science in Computer Science  
+### Bachelor of Science in Computer Science  
 **[University of the Philippines Los Baños](https://uplb.edu.ph/)**  
 *Graduated 2016 | Los Baños, Philippines*  
 GPA: 3.19
@@ -37,13 +39,13 @@ For more information, visit the [UPLB BSCS program page](https://ics.uplb.edu.ph
 ---
 
 ## Certifications
-#### Project Management Professional (PMP)    
+### Project Management Professional (PMP)    
 [Project Management Institute](https://www.pmi.org/certifications/project-management-pmp)    
 *Expected Completion September 2024*
 
 ---
 
 ## Online Courses    
-#### Product Management Short Course    
+### Product Management Short Course    
 [CareerFoundry](https://careerfoundry.com/en/courses/become-a-product-manager/)    
 *August 2024*
