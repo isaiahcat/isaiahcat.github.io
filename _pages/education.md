@@ -1,6 +1,7 @@
 ---
 title: Education
 permalink: /education/
+toc: true
 ---
 
 ## Master of Computer Science  
