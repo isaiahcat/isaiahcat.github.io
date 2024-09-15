@@ -111,12 +111,12 @@ analytics:
     anonymize_ip         : # true, false (default)
 
 
-# Site Author
+# Site Authorss
 author:
   name             : "Isaiah Butler"
   avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "Technical Project Manager\nSoftware Developer"
-  location         : # "Somewhere"
+  bio              : "Software Developer turned Technical Project Manager"
+  location         : "Bethel, CT"
   email            :
   links:
     - label: "Email"
