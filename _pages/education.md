@@ -43,7 +43,7 @@ For more information, visit the [UPLB BSCS program page](https://ics.uplb.edu.ph
 
 ---
 
-## Online Courses
+## Online Courses    
 #### Product Management Short Course    
 [CareerFoundry](https://careerfoundry.com/en/courses/become-a-product-manager/)    
 *August 2024*
