@@ -111,7 +111,7 @@ analytics:
     anonymize_ip         : # true, false (default)
 
 
-# Site Authorss
+# Site Author
 author:
   name             : "Isaiah Butler"
   avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
@@ -323,3 +323,10 @@ defaults:
       comments: # true
       share: true
       related: true
+  # _pages
+  - scope:
+      path: ""
+      type: pages
+    values:
+      layout: single
+      author_profile: true
