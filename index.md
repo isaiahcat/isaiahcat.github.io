@@ -8,8 +8,6 @@ Hi there! I'm Isaiah Butler, a project manager with a Master’s in Computer Sci
 
 I’m also in the process of earning my PMP certification to stay on top of the latest trends in project management. I thrive on solving problems, leading teams, and helping businesses grow through innovative project solutions.
 
----
-
 ## Skills
 **Project Management:** Agile, Scrum, Waterfall    
 **Budgeting and Resource Allocation**    
