@@ -19,9 +19,9 @@ locale                   : "en-US"
 rtl                      : # true, false (default) # turns direction of the page into right to left for RTL languages
 title                    : "Isaiah Butler"
 title_separator          : "-"
-subtitle                 : "Online Portfolio"
+subtitle                 : "Technical Project Manager | Software Developer"
 name                     : "Isaiah Butler"
-description              : #
+description              : "Online Portfolio"
 url                      : # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
@@ -115,7 +115,7 @@ analytics:
 author:
   name             : "Isaiah Butler"
   avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "Technical Project Manager \\| Software Developer"
+  bio              : ""
   location         : "Bethel, CT"
   email            :
   links:
