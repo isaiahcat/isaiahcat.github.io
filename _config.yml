@@ -137,6 +137,9 @@ author:
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
       # url: "https://instagram.com/"
+    - label: "Indeed"
+      icon: "fa-solid fa-info"
+      url: "https://profile.indeed.com/p/isaiahb-03m2x9b"
 
 # Site Footer
 footer:
