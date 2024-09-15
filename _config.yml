@@ -138,7 +138,7 @@ author:
       icon: "fab fa-fw fa-instagram"
       # url: "https://instagram.com/"
     - label: "Indeed"
-      icon: "fab fa-fw fa-indeed"
+      icon: "fa-solid fa-fw fa-circle-info"
       url: "https://profile.indeed.com/p/isaiahb-03m2x9b"
 
 # Site Footer

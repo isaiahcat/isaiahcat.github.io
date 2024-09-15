@@ -2,6 +2,7 @@
 title: Experience
 permalink: /experience/
 toc: true
+toc_sticky: true
 ---
 
 ### Graduate Computer Science Teaching Assistant  

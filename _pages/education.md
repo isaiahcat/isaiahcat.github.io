@@ -36,14 +36,10 @@ Relevant Courses:
 
 For more information, visit the [UPLB BSCS program page](https://ics.uplb.edu.ph/degree-programs/bs-computer-science/).
 
----
-
 ## Certifications
 ### Project Management Professional (PMP)    
 [Project Management Institute](https://www.pmi.org/certifications/project-management-pmp)    
 *Expected Completion September 2024*
-
----
 
 ## Online Courses    
 ### Product Management Short Course    
