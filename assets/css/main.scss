@@ -7,9 +7,3 @@ search: false
 
 @import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
 @import "minimal-mistakes"; // main partials
-
-/* Remove underline from header text */
-h1, h2, h3, h4, h5, h6 {
-  text-decoration: none !important;
-  border-bottom: none !important; 
-}
