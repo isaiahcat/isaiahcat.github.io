@@ -1,6 +1,6 @@
 ---
 title: "Enjoy PH"
-image: /assets/img/enjoy.jpg
+image: "/assets/img/enjoy.jpg"
 permalink: /projects/enjoy/
 tags: [Android, Android Studio, Java, Retrofit2, OkHttp3, Google Maps, Yasea]
 ---

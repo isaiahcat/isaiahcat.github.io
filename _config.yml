@@ -171,6 +171,7 @@ footer:
 include:
   - .htaccess
   - _pages
+  - _projects
 exclude:
   - "*.sublime-project"
   - "*.sublime-workspace"
@@ -234,6 +235,8 @@ sass:
 assets:
   css:
     - /assets/css/main.scss
+  images:
+    - /assets/img/*
 
 # Outputting
 permalink: /:categories/:title/
@@ -348,7 +351,7 @@ defaults:
   # _projects
   - scope:
       path: ""
-      type: project
+      type: projects
     values:
       layout: project
       author_profile: true

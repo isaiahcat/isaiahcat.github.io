@@ -1,6 +1,6 @@
 ---
 title: "UP Rural High School Course and Grade Management System"
-image: /assets/img/uprhs.png
+image: "/assets/img/uprhs.png"
 permalink: /projects/uprhs/
 ---
 
