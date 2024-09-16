@@ -3,6 +3,32 @@ title: Projects
 permalink: /projects/
 ---
 
+{% assign all_tags = "" | split: "" %}
+{% assign all_categories = "" | split: "" %}
+
+{% for project in site.projects %}
+  {% assign all_tags = all_tags | concat: project.tags %}
+  {% assign all_categories = all_categories | concat: project.categories %}
+{% endfor %}
+
+{% assign all_tags = all_tags | uniq | sort %}
+{% assign all_categories = all_categories | uniq | sort %}
+
+<p class="page__taxonomy">
+  <strong><i class="fas fa-fw fa-tags" aria-hidden="true"></i> {{ site.data.ui-text[site.locale].tags_label | default: "Tags:" }} </strong>
+  <span itemprop="keywords">
+  {% for tag_word in all_tags %}
+    <a href="{{ tag_word | slugify | prepend: path_type | prepend: site.tag_archive.path | relative_url }}" class="page__taxonomy-item p-category" rel="tag">{{ tag_word }}</a>
+  {% endfor %}
+  </span>
+  <strong><i class="fas fa-fw fa-folder-open" aria-hidden="true"></i> {{ site.data.ui-text[site.locale].categories_label | default: "Categories:" }} </strong>
+  <span itemprop="keywords">
+  {% for category_word in all_categories %}
+    <a href="{{ category_word | slugify | prepend: path_type | prepend: site.category_archive.path | relative_url }}" class="page__taxonomy-item p-category" rel="tag">{{ category_word }}</a>
+  {% endfor %}
+  </span>
+</p>
+
 <div class="card-container">
   {% assign sorted_projects = site.projects | sort: 'start_date' | reverse %}
   {% assign featured_projects = sorted_projects | where: 'featured', true %}
