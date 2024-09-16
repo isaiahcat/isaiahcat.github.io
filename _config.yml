@@ -306,6 +306,9 @@ category_archive:
 tag_archive:
   type: liquid
   path: /tags/
+  enabled: true
+  layout: archive-taxonomy
+  permalink: /tags/:tag/
 # https://github.com/jekyll/jekyll-archives
 # jekyll-archives:
 #   enabled:
