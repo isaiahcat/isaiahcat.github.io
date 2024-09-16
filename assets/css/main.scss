@@ -92,3 +92,24 @@ search: false
   vertical-align: middle;
   margin: 10px;
 }
+
+@media (max-width: 768px) {
+  .card-container {
+    flex-direction: column;
+  }
+
+  .card {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .card-image {
+    margin: 0;
+  }
+
+  .card-image img {
+    width: 100%;
+    max-width: 200px; /* Adjust max-width as needed */
+  }
+}
