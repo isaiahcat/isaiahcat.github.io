@@ -3,6 +3,7 @@ title: "My Home Credit Philippines"
 image: "/assets/img/homecredit.jpg"
 permalink: /projects/homecredit
 tags: [Android, Android Studio, Kotlin, Jira, Confluence, Firebase, Innovatrics]
+type: projects
 ---
 
 - Worked on user profile and account management

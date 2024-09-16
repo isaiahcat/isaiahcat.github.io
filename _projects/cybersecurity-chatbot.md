@@ -3,6 +3,7 @@ title: "Cybersecurity Chatbot with Rasa NLU and Large Language Models"
 image: "/assets/img/rasa.png"
 permalink: /projects/cybersecurity-chatbot
 tags: [UVU, Artificial Intelligence, Natural Language Processing, Python]
+type: projects
 ---
 ## Project Overview
 This project aimed to build a user-friendly cybersecurity chatbot that answers queries about security threats and best practices. Leveraging the Rasa framework for natural language understanding (NLU) and dialogue management, I integrated large language models (LLMs) like Cohere to enhance responses.
