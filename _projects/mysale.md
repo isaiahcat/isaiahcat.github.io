@@ -5,6 +5,7 @@ end_date: 2018-09-01
 thumbnail: "/assets/images/mysale.jpg"
 permalink: /projects/mysale
 tags: [Android, Android Studio, Java, Kotlin, Trello, Jira, Confluence, Amazon S3, Firebase, Fabric]
+categories: [Professional Work]
 ---
 
 - Established the app base architecture using MVP clean with Conductor

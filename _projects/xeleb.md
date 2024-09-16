@@ -5,6 +5,7 @@ end_date: 2016-10-01
 thumbnail: "/assets/images/xeleb.jpg"
 permalink: /projects/xeleb
 tags: [Android, Android Studio, Java, Retrofit2, OkHttp3, Amazon S3, Yasea]
+categories: [Professional Work]
 ---
 
 - Developed the base structure for the app in an earlier release

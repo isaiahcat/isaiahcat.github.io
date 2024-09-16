@@ -5,6 +5,7 @@ end_date: 2020-09-01
 thumbnail: "/assets/images/homecredit.jpg"
 permalink: /projects/homecredit
 tags: [Android, Android Studio, Kotlin, Jira, Confluence, Firebase, Innovatrics]
+categories: [Professional Work]
 ---
 
 - Worked on user profile and account management

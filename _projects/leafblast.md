@@ -5,6 +5,7 @@ end_date: 2015-07-01
 thumbnail: "/assets/images/leafblast.jpg"
 permalink: /projects/leafblast
 tags: [iOS, Xcode, Google Maps, Apple Maps, Objective-C]
+categories: [Professional Work]
 ---
 
 ### Project Overview

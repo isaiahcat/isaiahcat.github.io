@@ -7,6 +7,7 @@ header:
   image: "/assets/images/cover-vox.webp"
 permalink: /projects/vox-survey
 tags: [Android, Android Studio, Java, Retrofit2, OkHttp3, Amazon S3, Crashlytics]
+categories: [Professional Work]
 ---
 
 - Created an internal survey taking app for Vox Media

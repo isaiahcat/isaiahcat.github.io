@@ -6,7 +6,8 @@ thumbnail: "/assets/images/uprhs.png"
 header:
   image: "/assets/images/uprhs_cover.jpeg"
 permalink: /projects/uprhs
-tags: [UPLB, MySQL, PHP, Laravel, Bootstrap]
+tags: [MySQL, PHP, Laravel, Bootstrap]
+categories: [UPLB, Academic Projects]
 ---
 
 
