@@ -14,18 +14,18 @@
 
 {% if current_index %}
   <nav class="pagination">
-    {% assign next_index = current_index | plus: 1 %}
-    {% assign previous_index = current_index | minus: 1 %}
+    {% assign prev_index = current_index | plus: 1 %}
+    {% assign next_index = current_index | minus: 1 %}
 
-    {% if previous_index >= 0 %}
-      <a href="{{ all_sorted_projects[previous_index].url | relative_url }}" class="pagination--pager" title="{{ all_sorted_projects[previous_index].title | markdownify | strip_html }}">
-        {{ site.data.ui-text[site.locale].pagination_previous | default: "Previous" }}
+    {% if prev_index < all_sorted_projects.size %}
+      <a href="{{ all_sorted_projects[prev_index].url | relative_url }}" class="pagination--pager" title="{{ all_sorted_projects[prev_index].title | markdownify | strip_html }}">
+        {{ site.data.ui-text[site.locale].pagination_prev | default: "Previous" }}
       </a>
     {% else %}
-      <a href="#" class="pagination--pager disabled">{{ site.data.ui-text[site.locale].pagination_previous | default: "Previous" }}</a>
+      <a href="#" class="pagination--pager disabled">{{ site.data.ui-text[site.locale].pagination_prev | default: "Previous" }}</a>
     {% endif %}
 
-    {% if next_index < all_sorted_projects.size %}
+    {% if next_index >= 0 %}
       <a href="{{ all_sorted_projects[next_index].url | relative_url }}" class="pagination--pager" title="{{ all_sorted_projects[next_index].title | markdownify | strip_html }}">
         {{ site.data.ui-text[site.locale].pagination_next | default: "Next" }}
       </a>
