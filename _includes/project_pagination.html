@@ -8,7 +8,7 @@
 
 {%- for project in all_sorted_projects -%}
   {%- if project.url == current_project.url -%}
-    {%- assign current_index = forloop.index0 -%}  {# use index0 because it's zero-based #}
+    {%- assign current_index = forloop.index0 -%}
   {%- endif -%}
 {%- endfor -%}
 
