@@ -22,7 +22,7 @@ title_separator          : "-"
 subtitle                 : "Technical Project Manager | Software Developer"
 name                     : "Isaiah Butler"
 description              : "Online Portfolio"
-url                      : # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
+url                      : "https://isaiahcat.github.io"
 baseurl                  : "/minimal-mistakes"
 repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
@@ -233,10 +233,9 @@ sass:
 
 # Assets
 assets:
-  sources:
-    - /assets/css
-    - /assets/img
-    - /assets/js
+  css:
+    - /assets/css/main.css
+  images_dir: /assets/img/
 
 # Outputting
 permalink: /:categories/:title/
