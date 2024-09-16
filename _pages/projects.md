@@ -1,5 +1,4 @@
 ---
-layout: single
 title: Projects
 permalink: /projects/
 ---
@@ -9,7 +8,7 @@ permalink: /projects/
   <a href="{{ site.baseurl }}/projects/{{ project.slug }}" class="card-link">
     <div class="card">
       <div class="card-content">
-        <div class="card-title">{{ project.title }}</div>
+		<h2 class="card-title">{{ project.title }}</h2>
         <div class="card-description">{{ project.description }}</div>
   		  <div class="card-duration">
             {% assign start_date = project.start_date | date: "%B %Y" %}
