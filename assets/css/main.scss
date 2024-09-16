@@ -74,4 +74,10 @@ search: false
   height: auto;
   display: block;
   object-fit: cover;
+  box-shadow: none;
 }
+
+.card-image img:hover {
+  box-shadow: none !important;
+}
+
