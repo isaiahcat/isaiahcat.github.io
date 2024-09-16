@@ -57,7 +57,7 @@ search: false
 }
 
 .card-duration {
-  font-size: 0.80em;
+  font-size: 0.6em;
   color: #aaa;
   margin: 10px;
 }
@@ -67,6 +67,11 @@ search: false
   margin-left: 20px;
   width: 180px;
   height: auto;
+  box-shadow: none; !important;
+}
+
+.card-image:hover {
+  box-shadow: none !important;
 }
 
 .card-image img {
@@ -74,7 +79,7 @@ search: false
   height: auto;
   display: block;
   object-fit: cover;
-  box-shadow: none;
+  box-shadow: none; !important;
 }
 
 .card-image img:hover {
