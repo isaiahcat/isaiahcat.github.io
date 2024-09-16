@@ -1,5 +1,4 @@
 ---
-layout: project
 title: "My Home Credit Philippines"
 image: /assets/img/homecredit.jpg
 permalink: /projects/homecredit/

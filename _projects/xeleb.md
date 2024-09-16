@@ -1,5 +1,4 @@
 ---
-layout: post
 title: "Xeleb Live"
 image: /assets/img/xeleb.jpg
 permalink: /projects/xeleb/

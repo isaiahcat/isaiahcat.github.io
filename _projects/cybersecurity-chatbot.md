@@ -1,5 +1,4 @@
 ---
-layout: project
 title: "Cybersecurity Chatbot with Rasa NLU and Large Language Models"
 image: /assets/img/rasa.png
 permalink: /projects/cybersecurity-chatbot/

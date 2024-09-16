@@ -1,5 +1,4 @@
 ---
-layout: project
 title: "Enjoy PH"
 image: /assets/img/enjoy.jpg
 permalink: /projects/enjoy/

@@ -345,3 +345,12 @@ defaults:
     values:
       layout: single
       author_profile: true
+  # _projects
+  - scope:
+      path: ""
+      type: project
+    values:
+      layout: project
+      author_profile: true
+      toc: true
+      toc_sticky: true

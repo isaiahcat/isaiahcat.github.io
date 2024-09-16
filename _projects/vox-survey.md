@@ -1,5 +1,4 @@
 ---
-layout: project
 title: "Survey App for Vox Media"
 image: /assets/img/vox.png
 permalink: /projects/vox-survey/

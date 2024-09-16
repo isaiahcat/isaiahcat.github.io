@@ -1,5 +1,4 @@
 ---
-layout: project
 title: "Apacsale Mobile Applications"
 image: /assets/img/mysale.jpg
 permalink: /projects/mysale/

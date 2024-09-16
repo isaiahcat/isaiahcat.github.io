@@ -1,5 +1,4 @@
 ---
-layout: project
 title: "LeafBlast Mobile Car Wash App"
 image: /assets/img/leafblast.jpg
 permalink: /projects/leafblast/
