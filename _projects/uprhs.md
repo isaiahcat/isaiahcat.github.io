@@ -7,7 +7,6 @@ header:
   image: "/assets/images/uprhs_cover.jpeg"
 permalink: /projects/uprhs
 tags: [UPLB, MySQL, PHP, Laravel, Bootstrap]
-featured: true
 ---
 
 
