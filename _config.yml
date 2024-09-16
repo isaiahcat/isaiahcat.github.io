@@ -233,10 +233,10 @@ sass:
 
 # Assets
 assets:
-  css:
-    - /assets/css/main.scss
-  images:
-    - /assets/img/*
+  sources:
+    - /assets/css
+    - /assets/img
+    - /assets/js
 
 # Outputting
 permalink: /:categories/:title/
