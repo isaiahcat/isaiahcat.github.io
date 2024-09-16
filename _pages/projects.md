@@ -12,11 +12,7 @@ permalink: /projects/
   <a href="{{ site.baseurl }}/projects/{{ project.slug }}" class="card-link">
     <div class="card">
       <div class="card-content">
-		    <h4 class="card-title">{{ project.title }}
-          {% if project.featured %}
-            <span class="featured-icon" aria-label="Featured project">⭐</span>
-          {% endif %}
-        </h4>
+		    <h4 class="card-title">{{ project.title }}</h4>
         <div class="card-description">{{ project.description }}</div>
   		  <div class="card-duration">
             {% assign start_date = project.start_date | date: "%B %Y" %}
@@ -30,6 +26,9 @@ permalink: /projects/
               <p>{{ start_date }} - {{ end_date }}</p>
             {% endif %}
         </div>
+          {% if project.featured %}
+            <span class="featured-icon" aria-label="Featured project">⭐</span>
+          {% endif %}
       </div>
       <div class="card-image">
         <img src="{{ site.url }}{{ site.baseurl }}{{ project.thumbnail }}" alt="{{ project.title }}">
