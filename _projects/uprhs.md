@@ -6,6 +6,7 @@ thumbnail: "/assets/images/uprhs.png"
 header:
   image: "/assets/images/uprhs_cover.jpeg"
 permalink: /projects/uprhs
+featured: true
 ---
 
 
