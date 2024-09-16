@@ -8,3 +8,20 @@ main:
     url: /experience/  
   - title: "Projects"
     url: /projects/
+    children:
+      - title: "Cybersecurity Chatbot with Rasa NLU and Large Language Models"
+        url: /cybersecurity-chatbot/
+      - title: "My Home Credit Philippines"
+        url: /homecredit/
+      - title: "Apacsale Mobile Applications"
+        url: /mysale/
+      - title: "Survey App for Vox Media"
+        url: /xov-survey/
+      - title: "Enjoy PH"
+        url: /enjoy/
+      - title: "Xeleb Live"
+        url: /xeleb/
+      - title: "LeafBlast Mobile Car Wash App"
+        url: /leafblast/
+      - title: "UP Rural High School Course and Grade Management System"
+        url: /uprhs/
