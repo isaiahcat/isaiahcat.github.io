@@ -4,7 +4,11 @@ permalink: /projects/
 ---
 
 <div class="card-container">
-  {% for project in site.projects %}
+  {% assign sorted_projects = site.projects | sort: 'start_date' | reverse %}
+  {% assign featured_projects = sorted_projects | where: 'featured', true %}
+  {% assign non_featured_projects = sorted_projects | where: 'featured', false %}
+  {% assign all_projects = featured_projects | concat: non_featured_projects %}
+  {% for project in all_projects %}
   <a href="{{ site.baseurl }}/projects/{{ project.slug }}" class="card-link">
     <div class="card">
       <div class="card-content">
