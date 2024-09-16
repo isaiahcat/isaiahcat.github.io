@@ -12,7 +12,10 @@ permalink: /projects/
   <a href="{{ site.baseurl }}/projects/{{ project.slug }}" class="card-link">
     <div class="card">
       <div class="card-content">
-		<h4 class="card-title">{{ project.title }}</h4>
+		    <h4 class="card-title">{{ project.title }}</h4>
+          {% if project.featured %}
+            <span class="featured-icon" aria-label="Featured project">⭐</span>
+          {% endif %}
         <div class="card-description">{{ project.description }}</div>
   		  <div class="card-duration">
             {% assign start_date = project.start_date | date: "%B %Y" %}
