@@ -114,7 +114,7 @@ analytics:
 # Site Author
 author:
   name             : "Isaiah Butler"
-  avatar           : "/assets/img/avatar-icon.png"
+  avatar           : "/assets/images/avatar-icon.png"
   bio              : ""
   location         : "Bethel, CT"
   email            :
@@ -235,7 +235,7 @@ sass:
 assets:
   css:
     - /assets/css/main.css
-  images_dir: /assets/img/
+  images_dir: /assets/images/
 
 # Outputting
 permalink: /:categories/:title/
@@ -352,7 +352,7 @@ defaults:
       path: "_projects"
       type: projects
     values:
-      layout: project
+      layout: page
       author_profile: true
       toc: true
       toc_sticky: true

@@ -1,9 +1,8 @@
 ---
 title: "LeafBlast Mobile Car Wash App"
-image: "/assets/img/leafblast.jpg"
+thumbnail: "/assets/images/leafblast.jpg"
 permalink: /projects/leafblast
 tags: [iOS, Xcode, Google Maps, Apple Maps, Objective-C]
-type: projects
 ---
 
 ### Project Overview

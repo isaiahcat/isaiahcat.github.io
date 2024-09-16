@@ -13,7 +13,7 @@ permalink: /projects/
         <div class="card-description">{{ project.description }}</div>
       </div>
       <div class="card-image">
-        <img src="{{ site.baseurl }}{{ project.image }}" alt="{{ project.title }}">
+        <img src="{{ site.baseurl }}{{ project.thumbnail }}" alt="{{ project.title }}">
       </div>
     </div>
   </a>

@@ -1,9 +1,8 @@
 ---
 title: "Apacsale Mobile Applications"
-image: "/assets/img/mysale.jpg"
+thumbnail: "/assets/images/mysale.jpg"
 permalink: /projects/mysale
 tags: [Android, Android Studio, Java, Kotlin, Trello, Jira, Confluence, Amazon S3, Firebase, Fabric]
-type: projects
 ---
 
 - Established the app base architecture using MVP clean with Conductor

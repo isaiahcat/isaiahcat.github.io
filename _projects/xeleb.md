@@ -1,9 +1,8 @@
 ---
 title: "Xeleb Live"
-image: "/assets/img/xeleb.jpg"
+thumbnail: "/assets/images/xeleb.jpg"
 permalink: /projects/xeleb
 tags: [Android, Android Studio, Java, Retrofit2, OkHttp3, Amazon S3, Yasea]
-type: projects
 ---
 
 - Developed the base structure for the app in an earlier release
