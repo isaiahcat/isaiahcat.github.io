@@ -4,17 +4,18 @@
 {% assign all_sorted_projects = featured_projects | concat: non_featured_projects %}
 
 {% assign current_project = page %}
+{% assign current_index = 0 %}
 
-{% for project in all_sorted_projects %}
-  {% if project.url == current_project.url %}
-    {% assign current_index = forloop.index %}
-  {% endif %}
-{% endfor %}
+{%- for project in all_sorted_projects -%}
+  {%- if project.url == current_project.url -%}
+    {%- assign current_index = forloop.index0 -%}  {# use index0 because it's zero-based #}
+  {%- endif -%}
+{%- endfor -%}
 
 {% if current_index %}
   <nav class="pagination">
-    {% assign previous_index = current_index | plus: 0 %}
-    {% assign next_index = current_index | minus: 2 %}
+    {% assign next_index = current_index | plus: 1 %}
+    {% assign previous_index = current_index | minus: 1 %}
 
     {% if previous_index >= 0 %}
       <a href="{{ all_sorted_projects[previous_index].url | relative_url }}" class="pagination--pager" title="{{ all_sorted_projects[previous_index].title | markdownify | strip_html }}">
