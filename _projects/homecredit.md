@@ -1,5 +1,7 @@
 ---
 title: "My Home Credit Philippines"
+start_date: 2018-10-01
+end_date: 2020-09-01
 thumbnail: "/assets/images/homecredit.jpg"
 permalink: /projects/homecredit
 tags: [Android, Android Studio, Kotlin, Jira, Confluence, Firebase, Innovatrics]

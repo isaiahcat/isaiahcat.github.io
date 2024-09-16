@@ -1,5 +1,7 @@
 ---
 title: "UP Rural High School Course and Grade Management System"
+start_date: 2015-01-01
+end_date: 2015-05-01
 thumbnail: "/assets/images/uprhs.png"
 header:
   image: "/assets/images/uprhs_cover.jpeg"

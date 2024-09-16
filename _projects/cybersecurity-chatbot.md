@@ -1,5 +1,7 @@
 ---
 title: "Cybersecurity Chatbot with Rasa NLU and Large Language Models"
+start_date: 2024-08-01
+end_date: 2024-08-01
 thumbnail: "/assets/images/rasa-small.png"
 header:
   image: "/assets/images/rasa.png"

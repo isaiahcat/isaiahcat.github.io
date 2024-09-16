@@ -1,5 +1,7 @@
 ---
 title: "Survey App for Vox Media"
+start_date: 2016-10-01
+end_date: 2017-01-01
 thumbnail: "/assets/images/vox.png"
 header:
   image: "/assets/images/cover-vox.webp"
