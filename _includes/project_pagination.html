@@ -13,8 +13,8 @@
 
 {% if current_index %}
   <nav class="pagination">
-    {% assign previous_index = current_index | minus: 2 %}
-    {% assign next_index = current_index | plus: 0 %}
+    {% assign previous_index = current_index | plus: 0 %}
+    {% assign next_index = current_index | minus: 2 %}
 
     {% if previous_index >= 0 %}
       <a href="{{ all_sorted_projects[previous_index].url | relative_url }}" class="pagination--pager" title="{{ all_sorted_projects[previous_index].title | markdownify | strip_html }}">
