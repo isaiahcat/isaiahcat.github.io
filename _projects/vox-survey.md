@@ -1,7 +1,7 @@
 ---
 title: "Survey App for Vox Media"
 image: "/assets/img/vox.png"
-permalink: /projects/vox-survey/
+permalink: /projects/vox-survey
 tags: [Android, Android Studio, Java, Retrofit2, OkHttp3, Amazon S3, Crashlytics]
 ---
 

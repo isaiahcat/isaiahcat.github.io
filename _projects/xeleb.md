@@ -1,7 +1,7 @@
 ---
 title: "Xeleb Live"
 image: "/assets/img/xeleb.jpg"
-permalink: /projects/xeleb/
+permalink: /projects/xeleb
 tags: [Android, Android Studio, Java, Retrofit2, OkHttp3, Amazon S3, Yasea]
 ---
 

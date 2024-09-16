@@ -6,7 +6,7 @@ permalink: /projects/
 
 <div class="card-container">
   {% for project in site.projects %}
-  <a href="{{ project.url }}" class="card-link">
+  <a href="{{ site.baseurl }}/projects/{{ project.slug }}" class="card-link">
     <div class="card">
       <div class="card-image">
         <img src="{{ project.image }}" alt="{{ project.title }}">

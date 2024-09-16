@@ -1,7 +1,7 @@
 ---
 title: "Apacsale Mobile Applications"
 image: "/assets/img/mysale.jpg"
-permalink: /projects/mysale/
+permalink: /projects/mysale
 tags: [Android, Android Studio, Java, Kotlin, Trello, Jira, Confluence, Amazon S3, Firebase, Fabric]
 ---
 

@@ -1,7 +1,7 @@
 ---
 title: "Cybersecurity Chatbot with Rasa NLU and Large Language Models"
 image: "/assets/img/rasa.png"
-permalink: /projects/cybersecurity-chatbot/
+permalink: /projects/cybersecurity-chatbot
 tags: [UVU, Artificial Intelligence, Natural Language Processing, Python]
 ---
 ## Project Overview
