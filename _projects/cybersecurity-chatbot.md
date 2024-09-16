@@ -32,4 +32,6 @@ The chatbot handles user queries on cybersecurity threats like phishing and malw
 - Deploying the chatbot for real-world testing and collecting feedback for further improvement.
 
 ## Technical Report
-<embed src="/assets/pdf/cybersecurity_chatbot_tech_report.pdf" width="100%" height="300px">
+<div style="width: 100%; height: 300px; overflow: hidden;">
+  <embed src="/assets/pdf/cybersecurity_chatbot_tech_report.pdf" width="100%" height="100%">
+</div>
