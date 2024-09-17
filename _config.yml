@@ -305,13 +305,13 @@ category_archive:
   type: liquid
   path: /categories/
   enabled: true
-  layout: categories
+  layout: archive
   permalink: /categories/:category/
 tag_archive:
   type: liquid
   path: /tags/
   enabled: true
-  layout: tags
+  layout: archive
   permalink: /tags/:tag/
 # https://github.com/jekyll/jekyll-archives
 # jekyll-archives:
