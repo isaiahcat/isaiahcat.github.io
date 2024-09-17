@@ -304,11 +304,14 @@ collections:
 category_archive:
   type: liquid
   path: /categories/
+  enabled: true
+  layout: categories
+  permalink: /categories/:category/
 tag_archive:
   type: liquid
   path: /tags/
   enabled: true
-  layout: archive-taxonomy
+  layout: tags
   permalink: /tags/:tag/
 # https://github.com/jekyll/jekyll-archives
 # jekyll-archives:
