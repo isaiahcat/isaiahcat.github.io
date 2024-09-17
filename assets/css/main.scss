@@ -27,7 +27,6 @@ a:hover {
 .card {
   display: flex;
   justify-content: space-between;
-  gap: 10px;
   align-items: flex-start;
   border: 1px solid #ccc;
   background-color: #fff;
@@ -47,13 +46,13 @@ a:hover {
 .card-title {
   font-size: 1em;
   color: #404040;
-  margin: 10px;
+  margin: 5px;
 }
 
 .card-duration {
   font-size: 0.7em;
   color: #aaa;
-  margin: 10px;
+  margin: 5px;
 }
 
 .card-duration p {
@@ -63,7 +62,7 @@ a:hover {
 .card-description {
   font-size: 0.7em;
   color: #666;
-  margin: 10px;
+  margin: 5px;
 }
 
 .card-image {
