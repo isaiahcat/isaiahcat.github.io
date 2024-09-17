@@ -12,8 +12,8 @@ search: false
   display: flex;
   flex-wrap: wrap;
   flex-direction: column;
-  gap: 10px;
-  padding: 10px;
+  gap: 20px;
+  padding: 20px;
 }
 
 .card-container a {
@@ -27,11 +27,11 @@ search: false
 .card {
   display: flex;
   justify-content: space-between;
-  gap: 10px;
+  gap: 20px;
   align-items: flex-start;
   border: 1px solid #ccc;
   background-color: #fff;
-  padding: 10px;
+  padding: 20px;
   box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
   transition: transform 0.2s;
 }
@@ -47,17 +47,19 @@ search: false
 .card-title {
   font-size: 1em;
   color: #404040;
-  margin: 5px;
+  margin: 10px;
 }
 
 .card-duration {
   font-size: 0.7em;
   color: #aaa;
+  margin: 10px;
 }
 
 .card-description {
   font-size: 0.7em;
   color: #666;
+  margin: 10px;
 }
 
 .card-image {
