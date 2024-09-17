@@ -8,30 +8,30 @@ search: false
 @import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
 @import "minimal-mistakes"; // main partials
 
+a {
+  text-decoration: none !important;
+}
+
+a:hover {
+  text-decoration: none !important;
+}
+
 .card-container {
   display: flex;
   flex-wrap: wrap;
   flex-direction: column;
-  gap: 20px;
-  padding: 20px;
-}
-
-.card-container a {
-  text-decoration: none !important;
-}
-
-.card-container a:hover {
-  text-decoration: none !important;
+  gap: 10px;
+  padding: 10px;
 }
 
 .card {
   display: flex;
   justify-content: space-between;
-  gap: 20px;
+  gap: 10px;
   align-items: flex-start;
   border: 1px solid #ccc;
   background-color: #fff;
-  padding: 20px;
+  padding: 10px;
   box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
   transition: transform 0.2s;
 }
@@ -54,6 +54,10 @@ search: false
   font-size: 0.7em;
   color: #aaa;
   margin: 10px;
+}
+
+.card-duration p {
+  margin: 0px !important;
 }
 
 .card-description {
