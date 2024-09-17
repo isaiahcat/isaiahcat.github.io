@@ -4,11 +4,9 @@ start_date: 2017-01-01
 end_date: 2018-09-01
 thumbnail: "/assets/images/mysale.jpg"
 permalink: /projects/mysale
-tags: [Android, Android Studio, Java, Kotlin, Trello, Jira, Confluence, Amazon S3, Firebase, Fabric, Braintree]
+tags: [Android, Android Studio, Java, Kotlin, Trello, Jira, Confluence, Amazon S3, Firebase, Fabric, Braintree, Google Play]
 categories: [Professional Work]
 ---
-
-[MYSALE Group on Google Play](https://play.google.com/store/apps/developer?id=Mysale+Group&hl=en_US)
 
 ### Project Overview
 The **MYSALE Group** operates a network of e-commerce applications, each tailored to specific regions and countries. As part of the **Android development team**, I helped **update, maintain, and reskin** more than ten of these applications. The project involved close collaboration with both the **iOS development team** and **graphic designers** to create region-specific looks and features, while ensuring that the underlying functionality remained consistent across the different versions of the app.
@@ -46,3 +44,7 @@ As part of the Android team, I took on a range of responsibilities, including ar
 This project was a fantastic opportunity to enhance my skills in **Android development**, **collaborative development**, and **e-commerce app architecture**. The experience of managing multiple versions of the same app, ensuring compliance, and collaborating across teams to deliver region-specific features, all within a fast-paced environment, strengthened my ability to lead development efforts and make strategic decisions. 
 
 We followed a **hybrid Scrum-Kanban approach**, using daily stand-ups to track progress, but often leaning on **Kanban boards** to prioritize tasks and handle workflows, which was effective given the dynamic nature of the project.
+
+<a href="https://play.google.com/store/apps/developer?id=Mysale+Group&hl=en_US" target="_blank">
+  <img class="google-play-button" alt="MYSALE Group on Google Play" src="https://play.google.com/intl/en_us/badges/static/images/badges/en_badge_web_generic.png" width="150"/>
+</a>

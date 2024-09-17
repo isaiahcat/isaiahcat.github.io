@@ -4,11 +4,9 @@ start_date: 2018-10-01
 end_date: 2020-09-01
 thumbnail: "/assets/images/homecredit.jpg"
 permalink: /projects/homecredit
-tags: [Android, Android Studio, Kotlin, Jira, Confluence, Firebase, Innovatrics, eKYC, Software Architecture]
+tags: [Android, Android Studio, Kotlin, Jira, Confluence, Firebase, Innovatrics, eKYC, Software Architecture, Google Play]
 categories: [Professional Work]
 ---
-
-[My Home Credit Philippines on Google Play](https://play.google.com/store/apps/details?id=ph.homecredit.myhomecredit&hl=en_US)
 
 ### Project Overview
 The **My Home Credit Philippines Loan Management App** is a comprehensive platform that allows users to manage their loan accounts, make payments, and access various financial services. As part of the **major overhaul of the app**, I worked on **enhancing existing features** and introducing **new capabilities**, such as **biometric authentication**, **eKYC (electronic Know Your Customer)**, and **real-time analytics**.
@@ -44,3 +42,7 @@ I was part of a cross-functional team that played a significant role in the app'
 
 ### Conclusion
 Working on the **My Home Credit Philippines Loan Management App** provided me with valuable experience in **biometric authentication**, **eKYC**, and **modular app architecture**. I worked closely with several cross-functional teams and stakeholders, conducted **technical research**, and played a key role in the **successful modernization of the app**. Our team followed the **Scrum methodology** closely, with daily stand-ups, sprint retrospectives, and backlog grooming sessions to ensure the project stayed on track.
+
+<a href="https://play.google.com/store/apps/details?id=ph.homecredit.myhomecredit&hl=en_US" target="_blank">
+  <img class="google-play-button" alt="My Home Credit Philippines on Google Play" src="https://play.google.com/intl/en_us/badges/static/images/badges/en_badge_web_generic.png" width="150"/>
+</a>

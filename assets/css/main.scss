@@ -120,6 +120,10 @@ a:hover {
   text-decoration: none !important;
 }
 
+.google-play-button, .google-play-button:hover {
+  box-shadow: none !important;
+}
+
 @media (max-width: 768px) {
   .card {
     flex-direction: row;
