@@ -53,11 +53,13 @@ permalink: /projects/
   <a href="{{ site.baseurl }}/projects/{{ project.slug }}" class="card-link">
     <div class="card">
       <div class="card-content">
+        {% if project.featured %}
+          <span class="featured-icon" aria-label="Featured project">⭐</span>
+        {% endif %}
 		    <h4 class="card-title">{{ project.title }}</h4>
   		  <div class="card-duration">
             {% assign start_date = project.start_date | date: "%B %Y" %}
             {% assign end_date = project.end_date | date: "%B %Y" %}
-
             {% if project.end_date == nil or project.end_date == "Present" %}
               <p>{{ start_date }} - Present</p>
             {% elsif project.start_date == project.end_date %}
@@ -67,9 +69,6 @@ permalink: /projects/
             {% endif %}
         </div>
         <div class="card-description">{{ project.description | truncate: 160 }}</div>
-          {% if project.featured %}
-            <span class="featured-icon" aria-label="Featured project">⭐</span>
-          {% endif %}
       </div>
       <div class="card-image">
         <img src="{{ site.url }}{{ site.baseurl }}{{ project.thumbnail }}" alt="{{ project.title }}">
