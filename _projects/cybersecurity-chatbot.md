@@ -1,5 +1,5 @@
 ---
-title: "Cybersecurity Chatbot with Rasa and LLMs"
+title: "Cybersecurity Chatbot with Rasa and Large Language Models"
 description: "This project aimed to build a user-friendly cybersecurity chatbot that answers queries about security threats and best practices. Leveraging the Rasa framework for natural language understanding (NLU) and dialogue management, I integrated large language models (LLMs) like Cohere to enhance responses."
 start_date: 2024-08-01
 end_date: 2024-08-01
