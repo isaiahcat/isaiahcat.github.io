@@ -54,7 +54,6 @@ permalink: /projects/
     <div class="card">
       <div class="card-content">
 		    <h4 class="card-title">{{ project.title }}</h4>
-        <div class="card-description">{{ project.description }}</div>
   		  <div class="card-duration">
             {% assign start_date = project.start_date | date: "%B %Y" %}
             {% assign end_date = project.end_date | date: "%B %Y" %}
@@ -67,6 +66,7 @@ permalink: /projects/
               <p>{{ start_date }} - {{ end_date }}</p>
             {% endif %}
         </div>
+        <div class="card-description">{{ project.description | truncate: 160 }}</div>
           {% if project.featured %}
             <span class="featured-icon" aria-label="Featured project">⭐</span>
           {% endif %}
