@@ -46,13 +46,13 @@ a:hover {
 .card-title {
   font-size: 1em;
   color: #404040;
-  margin: 5px;
+  margin: 10px;
 }
 
 .card-duration {
   font-size: 0.7em;
   color: #aaa;
-  margin: 5px;
+  margin: 10px;
 }
 
 .card-duration p {
@@ -62,7 +62,7 @@ a:hover {
 .card-description {
   font-size: 0.6em;
   color: #666;
-  margin: 5px;
+  margin: 10px;
 }
 
 .card-image {
@@ -121,12 +121,16 @@ a:hover {
 }
 
 @media (max-width: 768px) {
-  .card-image {
-    margin: 0;
+  .card-container {
+    flex-direction: row;
   }
 
-  .card-image img {
+  .card {
+    flex-direction: row;
+  }
+
+  .card-image {
     width: 100%;
-    max-width: 120px; /* Adjust max-width as needed */
+    max-width: 120px;
   }
 }
