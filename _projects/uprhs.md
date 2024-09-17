@@ -1,5 +1,6 @@
 ---
-title: "UP Rural High School Course and Grade Management System"
+title: "UP Rural High School Web-based Grade Management System"
+description: "Led a project management role for a web-based grade management system, developed by a team of undergraduate students. Utilized Agile methodologies and ensured timely project completion while coordinating with stakeholders."
 start_date: 2015-01-01
 end_date: 2015-05-01
 thumbnail: "/assets/images/uprhs.png"

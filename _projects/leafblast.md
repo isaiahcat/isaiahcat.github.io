@@ -1,5 +1,6 @@
 ---
-title: "LeafBlast Mobile Car Wash App"
+title: "LeafBlast Mobile Car Wash"
+description: "As an iOS Mobile Developer Intern, created a car wash app that allowed users to schedule appointments, track car models, and use GPS for service location tracking. Integrated Stripe for payment processing and real-time updates."
 start_date: 2015-06-01
 end_date: 2015-07-01
 thumbnail: "/assets/images/leafblast.jpg"

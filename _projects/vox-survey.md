@@ -1,5 +1,6 @@
 ---
 title: "Survey App for Vox Media"
+description: "Created a cutomizable Android survey application for internal use by Vox Media. The app allowed survey results to be uploaded to Amazon S3 and seamlessly integrated with APIs using Retrofit for real-time data updates."
 start_date: 2016-10-01
 end_date: 2017-01-01
 thumbnail: "/assets/images/vox.png"

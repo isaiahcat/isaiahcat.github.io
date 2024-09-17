@@ -1,5 +1,6 @@
 ---
-title: "Apacsale Mobile Applications"
+title: "MYSALE Group E-commerce Apps"
+description: "Developed and maintained over 10 Android e-commerce applications, focusing on optimizing user experience and improving app efficiency. Conducted research to streamline app performance and collaborated with cross-functional teams to ensure seamless app functionality."
 start_date: 2017-01-01
 end_date: 2018-09-01
 thumbnail: "/assets/images/mysale.jpg"

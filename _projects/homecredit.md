@@ -1,5 +1,6 @@
 ---
-title: "My Home Credit Philippines"
+title: "Home Credit Loan Management App"
+description: "Developed a flagship Android app for Home Credit to streamline loan management processes, including user profile management, eKYC verification, and data-driven app analytics. Achieved over 10 million downloads and a 4.4-star rating on the Google Play Store."
 start_date: 2018-10-01
 end_date: 2020-09-01
 thumbnail: "/assets/images/homecredit.jpg"

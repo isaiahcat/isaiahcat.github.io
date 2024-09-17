@@ -1,5 +1,6 @@
 ---
-title: "Cybersecurity Chatbot with Rasa NLU and Large Language Models"
+title: "Cybersecurity Chatbot"
+description: "Developed a chatbot using Rasa to assist in cybersecurity threat detection and user queries. Integrated large language models (LLMs) from Hugging Face and Cohere to improve response accuracy, with the goal of enhancing security operations and reducing response times."
 start_date: 2024-08-01
 end_date: 2024-08-01
 thumbnail: "/assets/images/rasa-small.png"
