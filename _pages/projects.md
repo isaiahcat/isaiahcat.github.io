@@ -22,7 +22,7 @@ permalink: /projects/
   </strong>
   <span itemprop="keywords">
     {% for tag_word in all_tags %}
-      <a href="{{ tag_word | slugify | prepend: site.tag_archive.path | relative_url }}" class="project__taxonomy-item p-category" rel="tag">
+      <a href="{{ site.tag_archive.path | relative_url }}#{{ tag_word | slugify }}" class="project__taxonomy-item p-category" rel="tag">
         {{ tag_word }}
       </a>
     {% endfor %}
@@ -36,7 +36,7 @@ permalink: /projects/
   </strong>
   <span itemprop="keywords">
     {% for category_word in all_categories %}
-      <a href="{{ category_word | slugify | prepend: site.category_archive.path | relative_url }}" class="project__taxonomy-item p-category" rel="tag">
+      <a href="{{ site.category_archive.path | relative_url }}#{{ category_word | slugify }}" class="project__taxonomy-item p-category" rel="tag">
         {{ category_word }}
       </a>
     {% endfor %}
