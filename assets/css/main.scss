@@ -20,17 +20,17 @@ a:hover {
   display: flex;
   flex-wrap: wrap;
   flex-direction: column;
-  gap: 10px;
-  padding: 10px;
+  gap: 20px;
 }
 
 .card {
   display: flex;
   justify-content: space-between;
+  gap: 10px;
   align-items: flex-start;
   border: 1px solid #ccc;
   background-color: #fff;
-  padding: 10px;
+  padding: 20px;
   box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
   transition: transform 0.2s;
 }
@@ -46,13 +46,14 @@ a:hover {
 .card-title {
   font-size: 1em;
   color: #404040;
-  margin: 10px;
+  margin-top: 5px;
+  margin-bottom: 5px;
 }
 
 .card-duration {
   font-size: 0.7em;
   color: #aaa;
-  margin: 10px;
+  margin-bottom: 5px;
 }
 
 .card-duration p {
@@ -62,7 +63,6 @@ a:hover {
 .card-description {
   font-size: 0.6em;
   color: #666;
-  margin: 10px;
 }
 
 .card-image {
@@ -97,7 +97,7 @@ a:hover {
 
 .project_taxonomy {
   margin-top: 20px;
-  margin-bottom: 20px;
+  margin-bottom: 10px;
 }
 
 .project_taxonomy strong {
@@ -121,16 +121,21 @@ a:hover {
 }
 
 @media (max-width: 768px) {
+  .card {
+    flex-direction: row;
+    padding: 10px;
+  }
+
   .card-container {
     flex-direction: row;
   }
 
-  .card {
-    flex-direction: row;
+  .card-title {
+    margin-top: 0px;
   }
 
   .card-image {
     width: 100%;
-    max-width: 120px;
+    max-width: 100px;
   }
 }
