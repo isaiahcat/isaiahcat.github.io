@@ -1,6 +1,6 @@
 ---
-title: "LeafBlast Mobile Car Wash"
-description: "As an iOS Mobile Developer Intern, created a car wash app that allowed users to schedule appointments, track car models, and use GPS for service location tracking. Integrated Stripe for payment processing and real-time updates."
+title: "LeafBlast Mobile Car Wash App"
+description: "LeafBlast is a location-based iOS application that provides on-demand car wash services. Customers can request a car wash at their location, track the service provider’s journey in real time, and pay directly through the app. The project was designed to deliver a seamless, user-friendly experience while utilizing real-time GPS tracking for efficient service delivery."
 start_date: 2015-06-01
 end_date: 2015-07-01
 thumbnail: "/assets/images/leafblast.jpg"
