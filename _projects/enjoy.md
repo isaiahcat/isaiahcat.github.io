@@ -4,7 +4,7 @@ start_date: 2016-10-01
 end_date: 2016-12-01
 thumbnail: "/assets/images/enjoy.jpg"
 permalink: /projects/enjoy
-tags: [Android, Android Studio, Java, Retrofit2, OkHttp3, Google Maps, Facebook SDK, Twitter SDK, QR Code, UI/UX]  
+tags: [Android, Android Studio, Java, Retrofit2, OkHttp3, Google Maps, Facebook SDK, Twitter SDK, QR Code, UI/UX, Basecamp]  
 categories: [Professional Work]
 ---
 
@@ -18,12 +18,14 @@ As a **lead Android developer** with a focus on both **development** and **UI/UX
 - **User Experience Enhancements**: Simplified the process for users to find and redeem vouchers, resulting in a smoother, more intuitive experience.
 - **Social Media Integration**: Developed social media features for voucher sharing via **Facebook** and **Twitter**, allowing users to quickly share deals with their social networks.
 - **Backend Communication**: Used **Retrofit2** and **OkHttp3** to ensure efficient API communication, enabling real-time updates for vouchers and merchant details.
+- **Project Management**: Worked collaboratively with the project team using **Basecamp** to track tasks, coordinate timelines, and ensure that deliverables were met on time.s
 
 ### Key Achievements
 - Successfully **redesigned and enhanced the app UI/UX**, delivering a modern, streamlined interface that improved the user experience and increased engagement.
 - Developed the app's new features, including **merchant tracking**, which allowed users to easily locate partner merchants using **Google Maps**, leading to a higher usage of vouchers.
 - Integrated social media functionality, enabling seamless **voucher sharing** through **Facebook** and **Twitter**, extending the app’s reach and visibility.
 - Introduced **QR code-based redemption**, simplifying the voucher redemption process and improving customer satisfaction.
+- Effectively used **Basecamp** for project management, ensuring that timelines and deliverables were consistently met.
 
 ### Tools and Technologies
 - **Development Tools**: Android Studio, Java, Retrofit2, OkHttp3
@@ -32,6 +34,7 @@ As a **lead Android developer** with a focus on both **development** and **UI/UX
 - **Social Media Integration**: Facebook SDK, Twitter SDK for sharing vouchers
 - **QR Code Implementation**: QR code system for redeeming vouchers
 - **Version Control**: Git for managing code and collaboration
+- **Project Management**: Basecamp for task tracking, progress monitoring, and team collaboration.
 
 ### Challenges & Solutions
 - **Challenge**: Improving the app’s user interface while keeping it lightweight and responsive.
