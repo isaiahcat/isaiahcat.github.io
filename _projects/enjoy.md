@@ -1,6 +1,5 @@
 ---
 title: "Enjoy Philippines Voucher App"
-description: "Created an Android app that allowed users to access and share vouchers from partnered merchants. Integrated Google Maps for location services and social media APIs to enable voucher sharing through platforms like Facebook and Twitter."
 start_date: 2016-10-01
 end_date: 2016-12-01
 thumbnail: "/assets/images/enjoy.jpg"

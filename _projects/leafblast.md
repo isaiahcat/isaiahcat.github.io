@@ -1,6 +1,5 @@
 ---
 title: "LeafBlast Mobile Car Wash App"
-description: "LeafBlast is a location-based iOS application that provides on-demand car wash services. Customers can request a car wash at their location, track the service provider’s journey in real time, and pay directly through the app. The project was designed to deliver a seamless, user-friendly experience while utilizing real-time GPS tracking for efficient service delivery."
 start_date: 2015-06-01
 end_date: 2015-07-01
 thumbnail: "/assets/images/leafblast.jpg"

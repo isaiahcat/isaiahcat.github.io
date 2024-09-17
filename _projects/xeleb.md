@@ -1,6 +1,5 @@
 ---
 title: "Xeleb Live Streaming App"
-description: "Developed an Android app from scratch that enabled live streaming using the Yasea RTMP client. Integrated social media sharing and video storage functionalities to enhance the user experience."
 start_date: 2016-08-01
 end_date: 2016-10-01
 thumbnail: "/assets/images/xeleb.jpg"

@@ -68,7 +68,9 @@ permalink: /projects/
               <p>{{ start_date }} - {{ end_date }}</p>
             {% endif %}
         </div>
-        <div class="card-description">{{ project.description | truncate: 160 }}</div>
+      <div class="card-description">
+        {{ project.content | strip_html | replace: 'Project Overview', '' | truncate: 160 }}
+      </div>
       </div>
       <div class="card-image">
         <img src="{{ site.url }}{{ site.baseurl }}{{ project.thumbnail }}" alt="{{ project.title }}">

@@ -1,6 +1,5 @@
 ---
 title: "UP Rural High School Web-based Grade Management System"
-description: "In this project, I led the development of a web-based grade management system for UP Rural High School, aimed at improving the efficiency of grade entry, tracking, and reporting for teachers, administrators, and students."
 start_date: 2015-01-01
 end_date: 2015-05-01
 thumbnail: "/assets/images/uprhs.png"
