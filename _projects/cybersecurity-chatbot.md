@@ -6,8 +6,8 @@ thumbnail: "/assets/images/rasa-small.png"
 header:
   image: "/assets/images/rasa.png"
 permalink: /projects/cybersecurity-chatbot
-tags: [Artificial Intelligence, Natural Language Processing, Python]
-categories: [UVU, Academic Projects]
+tags: [Artificial Intelligence, Machine Learning, Natural Language Processing, Python, Cybersecurity]
+categories: [Utah Valley University, Academic Projects]
 ---
 ## Project Overview
 This project aimed to build a user-friendly cybersecurity chatbot that answers queries about security threats and best practices. Leveraging the Rasa framework for natural language understanding (NLU) and dialogue management, I integrated large language models (LLMs) like Cohere to enhance responses.
