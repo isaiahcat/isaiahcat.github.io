@@ -2,9 +2,13 @@
 title: About
 ---
 
-Hi! I'm Isaiah Butler, a **Technical Project Manager** with a **Master's in Computer Science** and over **eight years** of experience in software development, including **three years** of focused project management. My expertise lies in **leading cross-functional teams** to deliver high-impact software projects that meet business needs and are completed on time.
+Hi! I'm Isaiah Butler, a **Technical Project Manager** with a **Master's in Computer Science** and over **eight years** of experience in software development, including **three years** of focused project management. 
 
-In my technical roles, I have frequently taken on project management responsibilities, from **managing timelines and sprints** to **collaborating with stakeholders** and ensuring project success. I specialize in **Agile methodologies** and I'm currently pursuing my **PMP certification** to further solidify my project management knowledge and stay up-to-date with evolving industry practices.
+My expertise lies in **leading cross-functional teams** to deliver high-impact software projects that meet business needs and are completed on time.
+
+In my technical roles, I have frequently taken on project management responsibilities, from **managing timelines and sprints** to **collaborating with stakeholders** and ensuring project success. 
+
+I specialize in **Agile methodologies** and I'm currently pursuing my **PMP certification** to further solidify my project management knowledge and stay up-to-date with evolving industry practices.
 
 I’m passionate about solving problems, leading teams, and helping businesses grow through technology-driven solutions.
 
@@ -36,7 +40,7 @@ I’m passionate about solving problems, leading teams, and helping businesses g
 
 --- 
 
-### See projects by tag or category
+### See Projects by Tag or Category
 
 {% assign all_tags = "" | split: "" %}
 {% assign all_categories = "" | split: "" %}
