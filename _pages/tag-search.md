@@ -3,9 +3,9 @@ layout: archive
 permalink: /tags/
 title: "Projects by Tag"
 author_profile: true
-toc: true
-toc_sticky: true
 ---
+
+{% include projects-taxonomy.html %}
 
 {% include group-by-array collection=site.projects field="tags" %}
 
