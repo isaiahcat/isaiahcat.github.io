@@ -4,7 +4,7 @@ start_date: 2016-08-01
 end_date: 2016-10-01
 thumbnail: "/assets/images/xeleb.jpg"
 permalink: /projects/xeleb
-tags: [Android, Java, Retrofit2, OkHttp3, Amazon S3, Yasea, Facebook SDK, Twitter SDK, Software Architecture, Basecamp]  
+tags: [Android, Java, Retrofit2, OkHttp3, Amazon S3, Yasea, Facebook SDK, Twitter SDK, Software Architecture, Basecamp, Waterfall]  
 categories: [Professional Work]
 ---
 
