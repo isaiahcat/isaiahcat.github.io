@@ -4,7 +4,7 @@ start_date: 2017-01-01
 end_date: 2018-09-01
 thumbnail: "/assets/images/mysale.jpg"
 permalink: /projects/mysale
-tags: [Android, Android Studio, Java, Kotlin, Trello, Jira, Confluence, Amazon S3, Firebase, Fabric, Braintree, Google Play]
+tags: [Android, Java, Kotlin, Trello, Jira, Confluence, Amazon S3, Firebase, Fabric, Braintree, Google Play, Technical Research]
 categories: [Professional Work]
 ---
 

@@ -4,7 +4,7 @@ start_date: 2016-10-01
 end_date: 2016-12-01
 thumbnail: "/assets/images/enjoy.jpg"
 permalink: /projects/enjoy
-tags: [Android, Android Studio, Java, Retrofit2, OkHttp3, Google Maps, Facebook SDK, Twitter SDK, QR Code, UI/UX, Basecamp]  
+tags: [Android, Java, Retrofit2, OkHttp3, Google Maps, Facebook SDK, Twitter SDK, QR Code, UI/UX, Basecamp]  
 categories: [Professional Work]
 ---
 

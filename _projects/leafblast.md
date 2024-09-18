@@ -4,7 +4,7 @@ start_date: 2015-06-01
 end_date: 2015-07-01  
 thumbnail: "/assets/images/leafblast.jpg"  
 permalink: /projects/leafblast  
-tags: [iOS, Xcode, Objective-C, Apple Maps, Google Maps, Stripe SDK, SVN, Agile, Kanban, Trello]  
+tags: [iOS, Objective-C, Apple Maps, Google Maps, Stripe SDK, SVN, Agile, Kanban, Trello]  
 categories: [Professional Work]  
 ---
 

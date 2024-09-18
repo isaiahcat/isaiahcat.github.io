@@ -4,7 +4,7 @@ start_date: 2016-10-01
 end_date: 2017-01-01
 thumbnail: "/assets/images/vox.png"
 permalink: /projects/vox-survey
-tags: [Android, Android Studio, Java, Retrofit2, OkHttp3, Amazon S3, Crashlytics, Slack]
+tags: [Android, Java, Retrofit2, OkHttp3, Amazon S3, Crashlytics, Slack]
 categories: [Professional Work]
 ---
 
