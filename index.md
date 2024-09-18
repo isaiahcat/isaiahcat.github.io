@@ -4,41 +4,32 @@ title: About
 
 Hi! I'm Isaiah Butler, a **Technical Project Manager** with a **Master's in Computer Science** and over **eight years** of experience in software development, including **three years** of focused project management. 
 
-My expertise lies in **leading cross-functional teams** to deliver high-impact software projects that meet business needs and are completed on time.
-
-In my technical roles, I have frequently taken on project management responsibilities, from **managing timelines and sprints** to **collaborating with stakeholders** and ensuring project success. 
+In my technical roles, I have frequently taken on project management responsibilities, including **managing timelines and sprints**, **collaborating with stakeholders**, and **leading cross-functional teams** to ensure project success. 
 
 I specialize in **Agile methodologies** and I'm currently pursuing my **PMP certification** to further solidify my project management knowledge and stay up-to-date with evolving industry practices.
 
-I’m passionate about solving problems, leading teams, and helping businesses grow through technology-driven solutions.
+I’m passionate about **solving problems**, **leading teams**, and helping businesses grow through **technology-driven solutions**.
 
 ---
 
-### Skills Overview
+# Skills
 
-| **Skill**                    	| **Years of Experience** |
-|-------------------------------|-------------------------|
-| **Project Management**        | 3+ years                |
-| **Software Development**    	| 8+ years                |
-| **Android Development**          | 3+ years (Kotlin), 2+ years (Java) |
-| **iOS Development (Objective-C)** | 6 months             |
-| **Version Control (Git, SVN)** | 8+ years                |
-| **Database Management**        | 4+ years                |
-| **REST APIs & Retrofit**       | 4+ years                |
+&emsp;&emsp;**Project Management**&emsp;&emsp;&emsp;3+ years    
+&emsp;&emsp;**Software Development**&emsp;&emsp;8+ years    
 
----
+### Overview
 
-### Full Skillset
+| --- |---|
+| **Project Management** | Agile, Scrum, Waterfall, Team Leadership, Problem Solving, Stakeholder Collaboration |
+| **Software Development** | C, C++, C#, Java, Python | 
+| **Mobile Development** | Android, Java, Kotlin, iOS, Objective-C | 
+| **Frontend Development** | Bootstrap, HTML, CSS, JavaScript |
+| **Backend Development** | PHP (Laravel), MySQL |
+| **Artificial Intelligence & Machine Learning** | Tensorflow, Keras, PyTorch |
+| **Version Control** | Git, GitHub, GitLab, Subversion (SVN) |
+| **Cloud & Integration Tools** | Amazon S3, Firebase, Fabric, Payments, Biometrics |
+| **Testing & Monitoring** | Crashlytics, Jira, Confluence, Trello, Basecamp |
 
-- **Project Management**: Agile, Scrum, Waterfall, Risk Management, Stakeholder Collaboration
-- **Software Development**: Android, Kotlin, Java, iOS, Objective-C, C, C#, Python
-- **Frontend Development**: Bootstrap, HTML, CSS, JavaScript
-- **Backend Development**: PHP (Laravel), MySQL
-- **Version Control**: Git, Subversion (SVN)
-- **Cloud & Integration Tools**: Amazon S3, Firebase, Fabric, Payment SDKs, Biometrics
-- **Testing & Monitoring**: Crashlytics, Jira, Confluence, Trello, Basecamp
-
---- 
 
 ### See Projects by Tag or Category
 
