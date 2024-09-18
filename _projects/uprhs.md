@@ -6,7 +6,7 @@ thumbnail: "/assets/images/uprhs.png"
 header:
   image: "/assets/images/uprhs_cover.jpeg"
 permalink: /projects/uprhs
-tags: [MySQL, PHP, Laravel, Bootstrap, Git, Agile, Scrum, Project Management, Team Leadership, Stakeholder Management]  
+tags: [MySQL, PHP, Laravel, Bootstrap, Git, Agile, Scrum, Project Management, Team Leadership, Stakeholder Collaboration]  
 categories: [University of the Philippines Los Baños, Academic Projects]  
 ---
 
@@ -19,7 +19,7 @@ The system replaced the manual, paper-based process, allowing students to regist
 As the **Project Manager**, I was responsible for overseeing the entire project lifecycle, including:
 - **Team Leadership**: Led a team of 20+ members, consisting of four team leaders, each managing five members. The team included software engineers, UI/UX designers, and QA testers.
 - **Agile Methodology**: Utilized **Scrum** for sprint planning, retrospectives, and project workflows. I conducted daily stand-up meetings and weekly sprint reviews with the team and stakeholders.
-- **Stakeholder Management**: Worked closely with school administrators, teachers, and students to gather requirements and ensure the system met their needs.
+- **Stakeholder Collaboration**: Worked closely with school administrators, teachers, and students to gather requirements and ensure the system met their needs.
 - **Tools and Technologies**: The system was developed using **PHP (Laravel)** for the backend, **MySQL** for the database, **Bootstrap** for responsive design, and **Git** for version control.
 
 ### Key Achievements

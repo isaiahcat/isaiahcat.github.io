@@ -26,7 +26,7 @@ I’m passionate about solving problems, leading teams, and helping businesses g
 
 ### Full Skillset
 
-- **Project Management**: Agile, Scrum, Waterfall, Risk Management, Stakeholder Management
+- **Project Management**: Agile, Scrum, Waterfall, Risk Management, Stakeholder Collaboration
 - **Software Development**: Android, Kotlin, Java, iOS, Objective-C, C, C#, Python
 - **Frontend Development**: Bootstrap, HTML, CSS, JavaScript
 - **Backend Development**: PHP (Laravel), MySQL
