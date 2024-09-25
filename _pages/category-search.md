@@ -5,8 +5,8 @@ title: "Projects by Category"
 author_profile: true
 ---
 
-{% include projects-taxonomy.html %}
-
+{% include projects-navigation.html %}
+{% include project-categories.html %}
 {% include group-by-array collection=site.projects field="categories" %}
 
 {% for category in group_names %}

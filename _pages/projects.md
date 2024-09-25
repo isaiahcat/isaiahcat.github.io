@@ -3,7 +3,7 @@ title: Projects
 permalink: /projects/
 ---
 
-{% include projects-taxonomy.html %}
+{% include projects-navigation.html %}
 
 {% assign projects = site.projects %}
 {% include project-card-list.html %}

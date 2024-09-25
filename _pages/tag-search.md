@@ -5,8 +5,8 @@ title: "Projects by Tag"
 author_profile: true
 ---
 
-{% include projects-taxonomy.html %}
-
+{% include projects-navigation.html %}
+{% include project-tags.html %}
 {% include group-by-array collection=site.projects field="tags" %}
 
 {% for tag in group_names %}

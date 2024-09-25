@@ -1,0 +1,22 @@
+{% assign all_categories = "" | split: "" %}
+
+{% for project in site.projects %}
+  {% assign all_categories = all_categories | concat: project.categories %}
+{% endfor %}
+
+{% assign all_categories = all_categories | uniq | sort %}
+
+<p class="project_taxonomy">
+  <!-- Categories Section -->
+  <strong>
+    <i class="fas fa-fw fa-folder-open" aria-hidden="true"></i> 
+    {{ site.data.ui-text[site.locale].categories_label | default: "Categories:" }}
+  </strong>
+  <span itemprop="keywords">
+    {% for category_word in all_categories %}
+      <a href="{{ site.category_archive.path | relative_url }}#{{ category_word | slugify }}" class="project__taxonomy-item p-category" rel="tag">
+        {{ category_word }}
+      </a>
+    {% endfor %}
+  </span>
+</p>
