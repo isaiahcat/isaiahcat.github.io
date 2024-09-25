@@ -20,15 +20,14 @@ I’m passionate about **solving problems**, **leading teams**, and helping busi
 ### Overview
 
 | --- |---|
-| **Project Management** | Agile, Scrum, Waterfall, Team Leadership, Problem Solving, Stakeholder Collaboration |
+| **Project Management** | Agile, Scrum, Waterfall, Jira, Confluence, Trello, Basecamp, Team Leadership, Problem Solving, Stakeholder Collaboration |
 | **Software Development** | C, C++, C#, Java, Python | 
 | **Mobile Development** | Android, Java, Kotlin, iOS, Objective-C | 
 | **Frontend Development** | Bootstrap, HTML, CSS, JavaScript |
 | **Backend Development** | PHP (Laravel), MySQL |
-| **Artificial Intelligence & Machine Learning** | Tensorflow, Keras, PyTorch |
+| **Artificial Intelligence & Machine Learning** | Tensorflow, Keras, PyTorch, NLP, LLMs |
 | **Version Control** | Git, GitHub, GitLab, Subversion (SVN) |
-| **Cloud & Integration Tools** | Amazon S3, Firebase, Fabric, Payments, Biometrics |
-| **Testing & Monitoring** | Crashlytics, Jira, Confluence, Trello, Basecamp |
+| **Cloud & Integration Tools** | Amazon S3, Firebase, Fabric, Crashlytics, Payments, Biometrics |
 
 
 ### See Projects by Tag or Category
