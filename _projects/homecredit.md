@@ -4,7 +4,7 @@ start_date: 2018-10-01
 end_date: 2020-09-01
 thumbnail: "/assets/images/homecredit.jpg"
 permalink: /projects/homecredit
-tags: [Android, Kotlin, Jira, Confluence, Firebase, Innovatrics, eKYC, Biometrics, Software Architecture, Google Play, UI/UX, Analytics, Scrum, User Management, Security, Stakeholder Collaboration, Technical Research]
+tags: [Android, Kotlin, Jira, Confluence, Firebase, Innovatrics, eKYC, Biometrics, Software Architecture, Google Play, UI/UX, Analytics, Scrum, User Management, Security, Stakeholder Collaboration, Technical Research, Project Management]
 categories: [Professional Work]
 ---
 
