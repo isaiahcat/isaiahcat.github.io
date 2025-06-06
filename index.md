@@ -65,7 +65,7 @@ title: Home
       <h3 class="section-subtitle">Software Development – 8+ years</h3>
       <div class="skills-columns">
       <div class="skills-col">
-        <h4>Languages</h4>
+        <h4>Development</h4>
         <ul>
           <li><i class="fas fa-mug-hot"></i> Java</li>
           <li><i class="devicon-python-plain"></i> Python</li>
@@ -98,7 +98,7 @@ title: Home
         </ul>
       </div>
       <div class="skills-col">      
-        <h4>Mobile Development</h4>
+        <h4>Mobile Apps</h4>
         <ul>
           <li><i class="fab fa-android"></i> Android (Java/Kotlin)</li>
           <li><i class="fab fa-apple"></i> iOS (Objective-C)</li>
