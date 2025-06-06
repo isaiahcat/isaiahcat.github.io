@@ -129,7 +129,8 @@ title: Home
       </div>
       <div class="card">
         <div class="text">
-          <strong>MAGNA ETIAM</strong>
+          <strong>Scrum Master | UI/UX Designer</strong><br>
+          <em>Lawn Chop Chop</em>
           <p>Ipsum dolore consequat sed amet feugiat nisl sed amet tempus dolor adipiscing nulla tempus.</p>
           <a class="button" href="#">More</a>
         </div>
@@ -138,7 +139,8 @@ title: Home
       <div class="card">
         <img src="/assets/images/sample2.jpg" alt="Sample 2" />
         <div class="text">
-          <strong>SED FEUGIAT</strong>
+          <strong>Project Manager</strong><br>
+          <em>UPRHS Course and Grade Management System</em>
           <p>Ipsum dolore consequat sed amet feugiat nisl sed amet tempus dolor adipiscing nulla tempus.</p>
           <a class="button" href="#">More</a>
         </div>
