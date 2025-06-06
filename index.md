@@ -147,11 +147,12 @@ title: Home
       </div>
       <div class="card">
         <div class="text">
-          <strong>NISL BLANDIT</strong>
-          <p>Ipsum dolore consequat sed amet feugiat nisl sed amet tempus dolor adipiscing nulla tempus.</p>
+          <strong>Smart Home System: Embedded IoT Controller</strong><br>
+          <em>Project Lead • Systems Designer</em>
+          <p>Developed an STM32-based smart home system with automated locks, HVAC, lighting, fire alarm, security system, and a real-time clock, all managed through a keypad-driven interface.</p>
           <a class="button" href="#">More</a>
         </div>
-        <img src="/assets/images/sample3.jpg" alt="Sample 3" />
+        <img src="/assets/images/stm32nucleo.png" alt="STM32 Nucleo Logo" />
       </div>
     </section>
     <section id="certifications" class="section" >
