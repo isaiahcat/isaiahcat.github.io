@@ -145,7 +145,7 @@ title: Home
           <a class="button" href="#">More</a>
         </div>
       </div>
-      <div class="card">
+      <div class="card" style="padding-bottom: 1em;">
         <div class="text">
           <strong>Smart Home System: Embedded IoT Controller</strong><br>
           <em>Project Lead • Systems Designer</em>
