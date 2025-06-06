@@ -127,7 +127,7 @@ title: Home
         <h2 class="section-title">Featured Projects</h2>
         <div class="divider"></div>
       </div>
-      <div class="card">
+      <div class="card" style="border-top: 0;">
         <div class="text">
           <strong>Scrum Master | UI/UX Designer</strong><br>
           <em>Lawn Chop Chop</em>
