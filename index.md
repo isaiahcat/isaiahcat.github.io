@@ -129,19 +129,19 @@ title: Home
       </div>
       <div class="card" style="border-top: 0;">
         <div class="text">
-          <strong>Scrum Master | UI/UX Designer</strong><br>
-          <em>Lawn Chop Chop</em>
-          <p>Ipsum dolore consequat sed amet feugiat nisl sed amet tempus dolor adipiscing nulla tempus.</p>
+          <strong>Lawn Chop Chop: Robotic Lawnmower Simulation</strong><br>
+          <em>Scrum Master • UI/UX Designer</em>
+          <p>Led an Agile team and designed a clean UI to simulate an autonomous lawnmower, featuring obstacle avoidance and smart shutdown, for non-technical stakeholders at Pegasus Inc. within a fixed 8-week timeline.</p>
           <a class="button" href="#">More</a>
         </div>
-        <img src="/assets/images/sample1.jpg" alt="Sample 1" />
+        <img src="/assets/images/lawnchopchop.png" alt="Lawn Chop Chop Logo" />
       </div>
       <div class="card">
         <img src="/assets/images/uprhs.png" alt="UPRHS Logo" />
         <div class="text" style="padding-left: 1em; padding-right: 0;">
           <strong>UPRHS Course and Grade Management System</strong><br>
           <em>Project Manager</em>
-          <p>Led development of a student portal for UP Rural High School, digitizing records and streamlining course registration for underserved communities in the Philippines.</p>
+          <p>Managed development of a student portal for UP Rural High School, digitizing grades and streamlining registration for underserved communities in the Philippines.</p>
           <a class="button" href="#">More</a>
         </div>
       </div>
