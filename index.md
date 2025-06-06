@@ -137,11 +137,11 @@ title: Home
         <img src="/assets/images/sample1.jpg" alt="Sample 1" />
       </div>
       <div class="card">
-        <img src="/assets/images/sample2.jpg" alt="Sample 2" />
-        <div class="text">
-          <strong>Project Manager</strong><br>
-          <em>UPRHS Course and Grade Management System</em>
-          <p>Ipsum dolore consequat sed amet feugiat nisl sed amet tempus dolor adipiscing nulla tempus.</p>
+        <img src="/assets/images/uprhs.png" alt="UPRHS Logo" />
+        <div class="text" style="padding-left: 1em; padding-right: 0;">
+          <strong>UPRHS Course and Grade Management System</strong><br>
+          <em>Project Manager</em>
+          <p>Led development of a student portal for UP Rural High School, digitizing records and streamlining course registration for underserved communities in the Philippines.</p>
           <a class="button" href="#">More</a>
         </div>
       </div>
