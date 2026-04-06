@@ -155,23 +155,6 @@ title: Home
       </div>
     </div>
     </section>
-    <section id="certifications" class="section" >
-      <div class="section-header">
-        <a href="#certifications" class="arrow-button"><i class="fas fa-chevron-down"></i></a>        
-        <h2 class="section-title">Professional Certifications</h2>
-        <div class="divider"></div>
-      </div>
-      <div class="certification-item">
-          <a href="https://www.pmi.org/certifications/project-management-pmp" target="_blank" rel="noopener noreferrer">
-            <img src="assets/images/pmp.png" alt="PMP Certification Logo" width="128"/>
-          </a>
-          <div class="certification-text">
-            <strong>Project Management Professional (PMP)®</strong><br>
-            <em>Project Management Institute</em><br>
-            In Progress — Expected June 2025
-          </div>
-      </div>
-    </section>
     <section id="end" class="section" >
       <div class="section-header">
         <a href="#end" class="arrow-button"><i class="fas fa-chevron-down"></i></a>        
