@@ -65,38 +65,7 @@ title: Home
         <h2 class="section-title">Skills</h2>
         <div class="divider"></div>
       </div>
-      <h3 class="section-subtitle">Project Management – 3+ years</h3>
-      <div class="skills-columns">
-        <div class="skills-col">
-          <ul>
-            <li><i class="fas fa-project-diagram"></i> Agile</li>
-            <li><i class="fas fa-network-wired"></i> Scrum</li>
-            <li><i class="fas fa-stream"></i> Waterfall</li>
-            <li><i class="fab fa-jira"></i> Jira</li>
-            <li><i class="fab fa-confluence"></i> Confluence</li>
-            <li><i class="fab fa-trello"></i> Trello</li>
-            <li><i class="devicon-azure-plain"></i> Azure</li>
-          </ul>
-        </div>
-        <div class="skills-col">
-          <ul>
-            <li><i class="fas fa-users"></i> Team Leadership</li>
-            <li><i class="fas fa-handshake"></i> Stakeholder Management</li>
-            <li><i class="fas fa-shield-alt"></i> Risk Management</li>
-            <li><i class="fas fa-user-check"></i> Client Communication</li>
-          </ul>
-        </div>
-        <div class="skills-col">
-          <ul>
-            <li><i class="fas fa-chart-line"></i> Reports & Analytics</li>
-            <li><i class="fas fa-gears"></i> Resource Planning</li>
-            <li><i class="fas fa-lightbulb"></i> Decision-Making</li>
-            <li><i class="fas fa-users-gear"></i> Cross-functional Collaboration</li>
-            <li><i class="fas fa-tools"></i> Problem Solving</li>
-          </ul>
-        </div>
-      </div>
-      <h3 class="section-subtitle">Software Development – 8+ years</h3>
+      <h3 class="section-subtitle">Software Development</h3>
       <div class="skills-columns">
       <div class="skills-col">
         <h4>Development</h4>
@@ -154,6 +123,37 @@ title: Home
         </ul>
       </div>
     </div>
+    <h3 class="section-subtitle">Project Management</h3>
+      <div class="skills-columns">
+        <div class="skills-col">
+          <ul>
+            <li><i class="fas fa-project-diagram"></i> Agile</li>
+            <li><i class="fas fa-network-wired"></i> Scrum</li>
+            <li><i class="fas fa-stream"></i> Waterfall</li>
+            <li><i class="fab fa-jira"></i> Jira</li>
+            <li><i class="fab fa-confluence"></i> Confluence</li>
+            <li><i class="fab fa-trello"></i> Trello</li>
+            <li><i class="devicon-azure-plain"></i> Azure</li>
+          </ul>
+        </div>
+        <div class="skills-col">
+          <ul>
+            <li><i class="fas fa-users"></i> Team Leadership</li>
+            <li><i class="fas fa-handshake"></i> Stakeholder Management</li>
+            <li><i class="fas fa-shield-alt"></i> Risk Management</li>
+            <li><i class="fas fa-user-check"></i> Client Communication</li>
+          </ul>
+        </div>
+        <div class="skills-col">
+          <ul>
+            <li><i class="fas fa-chart-line"></i> Reports & Analytics</li>
+            <li><i class="fas fa-gears"></i> Resource Planning</li>
+            <li><i class="fas fa-lightbulb"></i> Decision-Making</li>
+            <li><i class="fas fa-users-gear"></i> Cross-functional Collaboration</li>
+            <li><i class="fas fa-tools"></i> Problem Solving</li>
+          </ul>
+        </div>
+      </div>
     </section>
     <section id="end" class="section" >
       <div class="section-header">
