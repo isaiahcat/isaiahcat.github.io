@@ -6,10 +6,10 @@ title: Home
 <div class="wrapper">
   <div class="main">
     <div class="header" style="text-align: center; margin-bottom: 2rem;">
-      <img src="assets/images/image.png" alt="Image" width="256" />
+      <img src="assets/images/image.png" alt="Image" width="172" />
       <h1>Isaiah Butler</h1>
       <div class="divider"></div>
-      <p class="job-title">Technical Project Manager | Software Developer</p>
+      <p class="job-title">Software Engineer</p>
       {% include socials.html %}
     </div>
     <section id="about" class="section" >
@@ -181,7 +181,7 @@ title: Home
     </section>
     <footer class="footer">
         {% include socials.html %}
-      <p>&copy; Isaiah Butler. 2025. All rights reserved.</p>
+      <p>&copy; Isaiah Butler. 2026. All rights reserved.</p>
     </footer>
   </div>
 </div>
