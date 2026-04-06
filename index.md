@@ -12,6 +12,40 @@ title: Home
       <p class="job-title">Software Engineer</p>
       {% include socials.html %}
     </div>
+    <section id="projects" class="section" >
+      <div class="section-header">
+        <a href="#projects" class="arrow-button"><i class="fas fa-chevron-down"></i></a>        
+        <h2 class="section-title">Featured Projects</h2>
+        <div class="divider"></div>
+      </div>
+      <div class="card" style="border-top: 0;">
+        <div class="text">
+          <strong>Lawn Chop Chop: Robotic Lawnmower Simulation</strong><br>
+          <em>Scrum Master • UI/UX Designer</em>
+          <p>Led an Agile team and designed a clean UI to simulate an autonomous lawnmower, featuring obstacle avoidance and smart shutdown, for non-technical stakeholders at Pegasus Inc. within a fixed 8-week timeline.</p>
+          <a class="button" href="#">More</a>
+        </div>
+        <img src="/assets/images/lawnchopchop.png" alt="Lawn Chop Chop Logo" />
+      </div>
+      <div class="card">
+        <img src="/assets/images/uprhs.png" alt="UPRHS Logo" />
+        <div class="text" style="padding-left: 1em; padding-right: 0;">
+          <strong>UPRHS Course and Grade Management System</strong><br>
+          <em>Project Manager</em>
+          <p>Managed development of a student portal for UP Rural High School, digitizing grades and streamlining registration for underserved communities in the Philippines.</p>
+          <a class="button" href="#">More</a>
+        </div>
+      </div>
+      <div class="card" style="padding-bottom: 1em;">
+        <div class="text">
+          <strong>Smart Home System: Embedded IoT Controller</strong><br>
+          <em>Project Lead • Systems Designer</em>
+          <p>Developed an STM32-based smart home system with automated locks, HVAC, lighting, fire alarm, security system, and a real-time clock, all managed through a keypad-driven interface.</p>
+          <a class="button" href="#">More</a>
+        </div>
+        <img src="/assets/images/stm32nucleo.png" alt="STM32 Nucleo Logo" />
+      </div>
+    </section>
     <section id="about" class="section" >
       <div class="section-header">
         <a href="#about" class="arrow-button"><i class="fas fa-chevron-down"></i></a>        
@@ -120,40 +154,6 @@ title: Home
         </ul>
       </div>
     </div>
-    </section>
-    <section id="projects" class="section" >
-      <div class="section-header">
-        <a href="#projects" class="arrow-button"><i class="fas fa-chevron-down"></i></a>        
-        <h2 class="section-title">Featured Projects</h2>
-        <div class="divider"></div>
-      </div>
-      <div class="card" style="border-top: 0;">
-        <div class="text">
-          <strong>Lawn Chop Chop: Robotic Lawnmower Simulation</strong><br>
-          <em>Scrum Master • UI/UX Designer</em>
-          <p>Led an Agile team and designed a clean UI to simulate an autonomous lawnmower, featuring obstacle avoidance and smart shutdown, for non-technical stakeholders at Pegasus Inc. within a fixed 8-week timeline.</p>
-          <a class="button" href="#">More</a>
-        </div>
-        <img src="/assets/images/lawnchopchop.png" alt="Lawn Chop Chop Logo" />
-      </div>
-      <div class="card">
-        <img src="/assets/images/uprhs.png" alt="UPRHS Logo" />
-        <div class="text" style="padding-left: 1em; padding-right: 0;">
-          <strong>UPRHS Course and Grade Management System</strong><br>
-          <em>Project Manager</em>
-          <p>Managed development of a student portal for UP Rural High School, digitizing grades and streamlining registration for underserved communities in the Philippines.</p>
-          <a class="button" href="#">More</a>
-        </div>
-      </div>
-      <div class="card" style="padding-bottom: 1em;">
-        <div class="text">
-          <strong>Smart Home System: Embedded IoT Controller</strong><br>
-          <em>Project Lead • Systems Designer</em>
-          <p>Developed an STM32-based smart home system with automated locks, HVAC, lighting, fire alarm, security system, and a real-time clock, all managed through a keypad-driven interface.</p>
-          <a class="button" href="#">More</a>
-        </div>
-        <img src="/assets/images/stm32nucleo.png" alt="STM32 Nucleo Logo" />
-      </div>
     </section>
     <section id="certifications" class="section" >
       <div class="section-header">
