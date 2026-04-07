@@ -18,6 +18,12 @@ title: Home
         <h2 class="section-title">Featured Projects</h2>
         <div class="divider"></div>
       </div>
+      <div class="projects-grid">
+        <!-- Repeat project-card -->
+        {% include project-card.html %}
+        {% include project-card.html %}
+        {% include project-card.html %}
+      </div>
       <div class="card" style="border-top: 0;">
         <div class="text">
           <strong>Lawn Chop Chop: Robotic Lawnmower Simulation</strong><br>
