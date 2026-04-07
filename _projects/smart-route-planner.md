@@ -1,8 +1,8 @@
 ---
 image: /assets/images/smart-route.png
 title: SmartRoutePlanner
-description: Builds optimized travel routes for your Google Calendar with Google Maps.
-tech: [Google Apps Script, Google Workspace]
+description: Optimizes travel routes for your Google Calendar with Google Maps.
+tech: [Google Apps Script, Workspace]
 type: personal
 featured: true
 priority: 1
