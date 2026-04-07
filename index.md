@@ -19,10 +19,9 @@ title: Home
         <div class="divider"></div>
       </div>
       <div class="projects-grid">
-        <!-- Repeat project-card -->
-        {% include project-card.html %}
-        {% include project-card.html %}
-        {% include project-card.html %}
+        {% for project in site.projects %}
+          {% include project-card.html project=project %}
+        {% endfor %}
       </div>
       <div class="card" style="border-top: 0;">
         <div class="text">

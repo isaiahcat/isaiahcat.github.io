@@ -1,24 +1,28 @@
 <div class="project-card">
   <div class="project-image">
-    <img src="path/to/image.jpg" alt="Project Screenshot">
+    <img src="{{ project.image }}" alt="{{ project.title }}">
   </div>
 
   <div class="project-content">
-    <h3 class="project-title">Project Title</h3>
+    <h3 class="project-title">{{ project.title }}</h3>
 
     <p class="project-description">
-      Description 1–2 lines max
+      {{ project.description}}
     </p>
 
     <div class="project-tech">
-      <span>Python</span>
-      <span>C</span>
-      <span>JAva</span>
+      {% for tech in project.tech %}
+        <span>{{ tech }}</span>
+      {% endfor %}
     </div>
 
     <div class="project-links">
-      <a href="#" target="_blank">Live</a>
-      <a href="#" target="_blank">GitHub</a>
+      {% if project.live %}
+        <a href="{{ project.live }}" target="_blank">Live</a>
+      {% endif %}
+      {% if project.github %}
+        <a href="{{ project.github }}" target="_blank">GitHub</a>
+      {% endif %}
     </div>
   </div>
 </div>
