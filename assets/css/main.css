@@ -104,10 +104,7 @@ body {
   object-fit: cover;
 }
 .project-content {
-  padding: 15px;
-}
-.project-title {
-  margin: 0 0 10px;
+  padding: 10px;
 }
 .project-description {
   font-size: 0.9rem;
