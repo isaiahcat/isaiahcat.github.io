@@ -5,4 +5,5 @@ description: Builds optimized travel routes from your Google Calendar using Goog
 tech: [Google Apps Script]
 type: personal
 featured: true
+priority: 1
 ---

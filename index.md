@@ -18,8 +18,9 @@ title: Home
         <h2 class="section-title">Featured Projects</h2>
         <div class="divider"></div>
       </div>
+      {% assign featured_projects = site.projects | where: "featured", true | sort: "priority" %}
       <div class="projects-grid">
-        {% for project in site.projects %}
+        {% for project in featured_projects %}
           {% include project-card.html project=project %}
         {% endfor %}
       </div>
@@ -29,6 +30,13 @@ title: Home
         <a href="#projects" class="arrow-button"><i class="fas fa-chevron-down"></i></a>        
         <h2 class="section-title">All Projects</h2>
         <div class="divider"></div>
+      </div>
+      <div class="projects-grid">
+        {% for project in site.projects %}
+          {% unless project.featured == true %}
+            {% include project-card.html project=project %}
+          {% endunless %}
+        {% endfor %}
       </div>
       <div class="card" style="border-top: 0;">
         <div class="text">
