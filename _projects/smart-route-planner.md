@@ -6,5 +6,5 @@ tech: [Google Apps Script]
 type: personal
 featured: true
 priority: 1
-link: 
+link: https://isaiahcat.github.io/smart-route-planner
 ---
