@@ -27,9 +27,9 @@ body {
 .main {
   max-width: 100%;
   position: relative;
-  width: 38rem;
+  width: 40rem;
   z-index: 1;
-  padding: 3.75rem 3rem 1rem 3rem;
+  padding: 3.75rem 2rem 1rem 2rem;
   background-color: rgba(225, 225, 225, 0.90);
   border: 1px solid rgba(0, 0, 0, 0.4);
   border-radius: 28px;
