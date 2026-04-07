@@ -1,7 +1,7 @@
 ---
 image: /assets/images/pylab.png
 title: PyLab
-description: Online Python environment designed for teaching and learning.
+description: Free online Python environment designed for teaching and learning.
 tech: [Python, JavaScript, HTML, CSS]
 type: personal
 featured: true
