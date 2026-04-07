@@ -121,6 +121,9 @@ body {
   border-radius: 5px;
   font-size: 0.75rem;
 }
+.project-link a {
+  text-decoration: none;
+}
 .about-text p {
   color: #3d3d3d;
   margin-top: 1.5rem;
