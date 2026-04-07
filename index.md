@@ -12,9 +12,9 @@ title: Home
       <p class="job-title">Software Engineer</p>
       {% include socials.html %}
     </div>
-    <section id="projects" class="section" >
+    <section id="featured" class="section" >
       <div class="section-header">
-        <a href="#projects" class="arrow-button"><i class="fas fa-chevron-down"></i></a>        
+        <a href="#featured" class="arrow-button"><i class="fas fa-chevron-down"></i></a>        
         <h2 class="section-title">Featured Projects</h2>
         <div class="divider"></div>
       </div>
@@ -22,6 +22,13 @@ title: Home
         {% for project in site.projects %}
           {% include project-card.html project=project %}
         {% endfor %}
+      </div>
+    </section>
+    <section id="projects" class="section" >
+      <div class="section-header">
+        <a href="#projects" class="arrow-button"><i class="fas fa-chevron-down"></i></a>        
+        <h2 class="section-title">All Projects</h2>
+        <div class="divider"></div>
       </div>
       <div class="card" style="border-top: 0;">
         <div class="text">
