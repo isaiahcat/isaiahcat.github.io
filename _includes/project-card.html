@@ -1,28 +1,21 @@
-<div class="project-card">
-  <div class="project-image">
-    <img src="{{ project.image }}" alt="{{ project.title }}">
-  </div>
-
-  <div class="project-content">
-    <h3 class="project-title">{{ project.title }}</h3>
-
-    <p class="project-description">
-      {{ project.description}}
-    </p>
-
-    <div class="project-tech">
-      {% for tech in project.tech %}
-        <span>{{ tech }}</span>
-      {% endfor %}
+<a href="{{ project.link }}" target="_blank">
+  <div class="project-card">
+    <div class="project-image">
+      <img src="{{ project.image }}" alt="{{ project.title }}">
     </div>
 
-    <div class="project-links">
-      {% if project.live %}
-        <a class="button" href="{{ project.live }}" target="_blank">Live</a>
-      {% endif %}
-      {% if project.github %}
-        <a class="button" href="{{ project.github }}" target="_blank">GitHub</a>
-      {% endif %}
+    <div class="project-content">
+      <h3 class="project-title">{{ project.title }}</h3>
+
+      <p class="project-description">
+        {{ project.description}}
+      </p>
+
+      <div class="project-tech">
+        {% for tech in project.tech %}
+          <span>{{ tech }}</span>
+        {% endfor %}
+      </div>
     </div>
   </div>
-</div>
+</a>
