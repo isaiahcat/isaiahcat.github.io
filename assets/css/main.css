@@ -47,7 +47,7 @@ body {
 }
 .section {
   border-top: 1px solid #3d3d3d3d;
-  padding: 2rem 1.5rem;
+  padding: 2rem 0rem;
 }
 .section-header {
   text-align: center;
