@@ -1,21 +1,23 @@
-<a class="project-link" href="{{ project.link }}" target="_blank">
-  <div class="project-card">
+<div class="project-card" data-track="{{ project.track }}" data-tech="{{ project.tech | join: ',' | downcase }}" data-title="{{ project.title | downcase }}">
+  <a class="project-link" href="{{ project.link }}" target="_blank">
     <div class="project-image" style="background-color: {{ project.image_bg | default: '#ffffff' }}">
       <img src="{{ project.image }}" alt="{{ project.title }}">
     </div>
-
     <div class="project-content">
+      {% if project.track %}
+        <span class="track-badge {{ project.track }}">
+          {% if project.track == 'swe' %}Software Engineering
+          {% elsif project.track == 'teaching' %}Teaching
+          {% else %}Personal{% endif %}
+        </span>
+      {% endif %}
       <h3 class="project-title">{{ project.title }}</h3>
-
-      <p class="project-description">
-        {{ project.description}}
-      </p>
-
+      <p class="project-description">{{ project.description }}</p>
       <div class="project-tech">
         {% for tech in project.tech %}
           <span>{{ tech }}</span>
         {% endfor %}
       </div>
     </div>
-  </div>
-</a>
+  </a>
+</div>
