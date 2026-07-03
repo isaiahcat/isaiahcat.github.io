@@ -1,4 +1,6 @@
 ---
+layout: project
+permalink: /projects/lawn-chop-chop/
 image: /assets/images/lawnchopchop.png
 title: "Lawn Chop Chop: Robotic Lawnmower Simulation"
 description: Agile-led simulation of an autonomous lawnmower with obstacle avoidance.

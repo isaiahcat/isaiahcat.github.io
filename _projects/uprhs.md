@@ -1,4 +1,6 @@
 ---
+layout: project
+permalink: /projects/uprhs/
 image: /assets/images/uprhs.png
 title: UPRHS Course and Grade Management System
 description: Student portal digitizing grades and registration for an underserved community.

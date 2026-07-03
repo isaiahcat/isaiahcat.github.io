@@ -1,4 +1,6 @@
 ---
+layout: project
+permalink: /projects/hc-consumer-finance/
 image: /assets/images/hcconsumer.png
 title: HC Consumer Finance Android App
 description: Flagship Android loan management app — 10M+ downloads, 4.4★ rating.

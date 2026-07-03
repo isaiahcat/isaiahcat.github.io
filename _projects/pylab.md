@@ -1,4 +1,6 @@
 ---
+layout: project
+permalink: /projects/pylab/
 image: /assets/images/pylab.png
 image_bg: "#253852"
 title: PyLab

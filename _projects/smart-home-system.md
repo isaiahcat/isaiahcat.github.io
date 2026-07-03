@@ -1,4 +1,6 @@
 ---
+layout: project
+permalink: /projects/smart-home-system/
 image: /assets/images/stm32nucleo.png
 title: Smart Home System — STM32 Embedded IoT Controller
 description: Modular embedded system with real-time locks, HVAC, lighting, fire alarm, and security.

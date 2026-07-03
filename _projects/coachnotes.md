@@ -1,4 +1,6 @@
 ---
+layout: project
+permalink: /projects/coachnotes/
 image: /assets/images/coachnotes.png
 title: CoachNotes
 description: Self-built lesson-planning dashboard with AI-assisted prep, in active production use.

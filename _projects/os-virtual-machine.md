@@ -1,4 +1,6 @@
 ---
+layout: project
+permalink: /projects/os-virtual-machine/
 image: /assets/images/os-vm.png
 title: Operating Systems Virtual Machine
 description: Python-based VM simulating CPU scheduling, paging, and process management.

@@ -15,10 +15,6 @@ title: Home
       <p style="max-width: 30rem; margin: 0.5rem auto 0; font-size: 0.95rem; color: #3d3d3d;">
         5+ years shipping mobile software at scale, now building EdTech tools and teaching the next generation of programmers.
       </p>
-      <div class="hero-buttons">
-        <a href="#projects" class="button-primary">View Projects</a>
-        <a href="https://github.com/isaiahcat" target="_blank" class="button-secondary">GitHub</a>
-      </div>
       {% include socials.html %}
     </div>
 
@@ -30,7 +26,7 @@ title: Home
         <div class="divider"></div>
       </div>
       {% assign featured_projects = site.projects | where: "featured", true | sort: "priority" %}
-      <div class="projects-grid">
+      <div class="projects-grid featured-grid">
         {% for project in featured_projects %}
           {% include project-card.html project=project %}
         {% endfor %}
@@ -176,6 +172,31 @@ title: Home
       </div>
     </section>
 
+    <!-- CONTACT -->
+    <section id="contact" class="section">
+      <div class="section-header">
+        <a href="#contact" class="arrow-button"><i class="fas fa-chevron-down"></i></a>
+        <h2 class="section-title">Contact Me</h2>
+        <div class="divider"></div>
+      </div>
+      <form class="contact-form" id="contact-form" action="https://formspree.io/f/YOUR_FORM_ID" method="POST">
+        <div>
+          <label for="name">Name</label>
+          <input type="text" id="name" name="name" required>
+        </div>
+        <div>
+          <label for="email">Email</label>
+          <input type="email" id="email" name="email" required>
+        </div>
+        <div>
+          <label for="message">Message</label>
+          <textarea id="message" name="message" required></textarea>
+        </div>
+        <button type="submit" class="button-primary">Send Message</button>
+        <p class="contact-status" id="contact-status" hidden></p>
+      </form>
+    </section>
+
     <section id="end" class="section">
       <div class="section-header">
         <a href="#end" class="arrow-button"><i class="fas fa-chevron-down"></i></a>
@@ -229,5 +250,33 @@ title: Home
       applyFilters();
     });
   });
+
+  // Contact form submission (Formspree-compatible, no page reload)
+  const contactForm = document.getElementById('contact-form');
+  const contactStatus = document.getElementById('contact-status');
+
+  if (contactForm) {
+    contactForm.addEventListener('submit', async function(e) {
+      e.preventDefault();
+      const formData = new FormData(contactForm);
+      contactStatus.hidden = false;
+      contactStatus.textContent = 'Sending...';
+      try {
+        const response = await fetch(contactForm.action, {
+          method: 'POST',
+          body: formData,
+          headers: { 'Accept': 'application/json' }
+        });
+        if (response.ok) {
+          contactStatus.textContent = "Thanks! I'll get back to you soon.";
+          contactForm.reset();
+        } else {
+          contactStatus.textContent = 'Something went wrong. Please email me directly instead.';
+        }
+      } catch (err) {
+        contactStatus.textContent = 'Something went wrong. Please email me directly instead.';
+      }
+    });
+  }
 })();
 </script>

@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Isaiah Butler | {{ page.title }}</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.15.1/devicon.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="{{ '/assets/css/main.css' | relative_url }}">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="{{ '/assets/images/favicon.png' | relative_url }}" type="image/png">
+  </head>
+  <body>
+    <div class="wrapper">
+      <div class="main">
+        <a href="{{ '/#projects' | relative_url }}" class="project-detail-back">&larr; Back to all projects</a>
+
+        <div class="project-detail-header">
+          {% if page.track %}
+            <span class="track-badge {{ page.track }}">
+              {% if page.track == 'swe' %}Software Engineering
+              {% elsif page.track == 'teaching' %}Teaching
+              {% else %}Personal{% endif %}
+            </span>
+          {% endif %}
+          <h1>{{ page.title }}</h1>
+          <p class="job-title">{{ page.description }}</p>
+        </div>
+
+        {% if page.image %}
+          <img src="{{ page.image | relative_url }}" alt="{{ page.title }}" class="project-detail-image" style="background-color: {{ page.image_bg | default: '#f7f1ea' }}">
+        {% endif %}
+
+        <div class="project-tech" style="text-align: center; margin-bottom: 1.5rem;">
+          {% for tech in page.tech %}
+            <span>{{ tech }}</span>
+          {% endfor %}
+        </div>
+
+        <div class="project-detail-body">
+          {{ content }}
+        </div>
+
+        <div class="project-detail-links">
+          {% if page.link %}
+            <a href="{{ page.link }}" target="_blank" class="button-primary">View Project</a>
+          {% endif %}
+          <a href="{{ '/#projects' | relative_url }}" class="button-secondary">Back to Projects</a>
+        </div>
+
+        <footer class="footer">
+          {% include socials.html %}
+          <p>&copy; Isaiah Butler. 2026. All rights reserved.</p>
+        </footer>
+      </div>
+    </div>
+  </body>
+</html>

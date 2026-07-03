@@ -1,4 +1,6 @@
 ---
+layout: project
+permalink: /projects/smart-route-planner/
 image: /assets/images/smart-route.png
 title: Smart Route Planner
 description: Optimizes travel routes for your Google Calendar with Google Maps.

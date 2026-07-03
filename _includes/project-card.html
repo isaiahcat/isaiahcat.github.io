@@ -1,5 +1,5 @@
 <div class="project-card" data-track="{{ project.track }}" data-tech="{{ project.tech | join: ',' | downcase }}" data-title="{{ project.title | downcase }}">
-  <a class="project-link" href="{{ project.link }}" target="_blank">
+  <a class="project-link" href="{{ project.url | relative_url }}">
     <div class="project-image" style="background-color: {{ project.image_bg | default: '#ffffff' }}">
       <img src="{{ project.image }}" alt="{{ project.title }}">
     </div>
