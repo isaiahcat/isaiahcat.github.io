@@ -8,11 +8,10 @@ title: Home
 
     <!-- HERO -->
     <div class="header" style="text-align: center; margin-bottom: 1rem;">
-      <img src="assets/images/image.png" alt="Image" width="172" />
-      <h1>Isaiah Butler</h1>
-      <div class="divider"></div>
+      <div class="hero-avatar">IB</div>
+      <h1 style="font-size: 24px; font-weight: 500; margin: 0;">Isaiah Butler</h1>
       <p class="job-title">Software Engineer &amp; Programming Educator</p>
-      <p style="max-width: 30rem; margin: 0.5rem auto 0; font-size: 0.95rem; color: #3d3d3d;">
+      <p style="max-width: 28rem; margin: 0.6rem auto 0; font-size: 13px; color: #888; line-height: 1.6;">
         5+ years shipping mobile software at scale, now building EdTech tools and teaching the next generation of programmers.
       </p>
       {% include socials.html %}
@@ -20,11 +19,7 @@ title: Home
 
     <!-- FEATURED -->
     <section id="featured" class="section">
-      <div class="section-header">
-        <a href="#featured" class="arrow-button"><i class="fas fa-chevron-down"></i></a>
-        <h2 class="section-title">Featured Projects</h2>
-        <div class="divider"></div>
-      </div>
+      <p class="eyebrow">Featured projects</p>
       {% assign featured_projects = site.projects | where: "featured", true | sort: "priority" %}
       <div class="projects-grid featured-grid">
         {% for project in featured_projects %}
@@ -35,13 +30,12 @@ title: Home
 
     <!-- ALL PROJECTS -->
     <section id="projects" class="section">
-      <div class="section-header">
-        <a href="#projects" class="arrow-button"><i class="fas fa-chevron-down"></i></a>
-        <h2 class="section-title">All Projects</h2>
-        <div class="divider"></div>
-      </div>
+      <p class="eyebrow">All projects</p>
 
-      <input type="text" id="project-search" class="project-search" placeholder="Search projects...">
+      <div class="project-search-wrap">
+        <i class="fas fa-search"></i>
+        <input type="text" id="project-search" class="project-search" placeholder="Search projects...">
+      </div>
 
       <div class="tag-filters" id="tag-filters">
         <button class="tag-filter active" data-track="all">All</button>
@@ -61,11 +55,7 @@ title: Home
 
     <!-- ABOUT -->
     <section id="about" class="section">
-      <div class="section-header">
-        <a href="#about" class="arrow-button"><i class="fas fa-chevron-down"></i></a>
-        <h2 class="section-title">About Me</h2>
-        <div class="divider"></div>
-      </div>
+      <p class="eyebrow">About me</p>
       <div class="about-text">
         <p>Hi! 👋 I'm Isaiah Butler — a Software Engineer with a background in mobile development and a Master's in Computer Science. 🤖</p>
         <p>I've shipped Android apps used by millions, and I'm now focused on EdTech, developer tooling, and small product teams where engineers own meaningful slices of work.</p>
@@ -76,11 +66,7 @@ title: Home
 
     <!-- SKILLS (unchanged from current site) -->
     <section id="skills" class="section">
-      <div class="section-header">
-        <a href="#skills" class="arrow-button"><i class="fas fa-chevron-down"></i></a>
-        <h2 class="section-title">Skills</h2>
-        <div class="divider"></div>
-      </div>
+      <p class="eyebrow">Skills</p>
       <h3 class="section-subtitle">Software Development</h3>
       <div class="skills-columns">
         <div class="skills-col">
@@ -174,11 +160,7 @@ title: Home
 
     <!-- CONTACT -->
     <section id="contact" class="section">
-      <div class="section-header">
-        <a href="#contact" class="arrow-button"><i class="fas fa-chevron-down"></i></a>
-        <h2 class="section-title">Contact Me</h2>
-        <div class="divider"></div>
-      </div>
+      <p class="eyebrow">Contact me</p>
       <form class="contact-form" id="contact-form" action="https://formspree.io/f/YOUR_FORM_ID" method="POST">
         <div>
           <label for="name">Name</label>
@@ -195,14 +177,6 @@ title: Home
         <button type="submit" class="button-primary">Send Message</button>
         <p class="contact-status" id="contact-status" hidden></p>
       </form>
-    </section>
-
-    <section id="end" class="section">
-      <div class="section-header">
-        <a href="#end" class="arrow-button"><i class="fas fa-chevron-down"></i></a>
-        <h2 class="section-title">Thanks!</h2>
-        <div class="divider"></div>
-      </div>
     </section>
 
     <footer class="footer">
