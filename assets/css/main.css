@@ -177,40 +177,37 @@ body {
   line-height: 1.65;
   font-size: 14px;
 }
-.skills-columns {
-  display: flex;
-  gap: 1rem;
-  justify-content: space-between;
-  flex-wrap: wrap;
-  row-gap: 1rem;
+.skills-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  gap: 12px;
+  margin-top: 1rem;
 }
-.skills-col {
-  flex: 1;
-  min-width: 175px;
+.skill-card {
+  border: 0.5px solid #e0ddd6;
+  border-radius: 12px;
+  background: #fff;
+  padding: 1.1rem 1.2rem;
 }
-.skills-col h4 {
+.skill-card h4 {
   font-size: 13px;
-  margin: 0.5rem 0;
   font-weight: 600;
   color: #333;
+  margin: 0 0 0.75rem;
 }
-.skills-col ul {
-  list-style: none;
-  padding: 0;
-  margin: 0;
-}
-.skills-col li {
-  margin-bottom: 0.5rem;
+.skill-pills {
   display: flex;
-  align-items: center;
-  gap: 0.5rem;
-  font-size: 13px;
-  color: #444;
+  flex-wrap: wrap;
+  gap: 6px;
 }
-.skills-col i {
-  width: 1.2rem;
-  text-align: center;
-  color: #888;
+.skill-pills span {
+  display: inline-block;
+  background: #f4f3f0;
+  border: 0.5px solid #e8e5df;
+  padding: 3px 10px;
+  border-radius: 20px;
+  font-size: 11.5px;
+  color: #666;
 }
 .button {
   border: 0.5px solid #ddd;

@@ -64,96 +64,65 @@ title: Home
       </div>
     </section>
 
-    <!-- SKILLS (unchanged from current site) -->
+    <!-- SKILLS -->
     <section id="skills" class="section">
       <p class="eyebrow">Skills</p>
-      <h3 class="section-subtitle">Software Development</h3>
-      <div class="skills-columns">
-        <div class="skills-col">
-          <h4>Development</h4>
-          <ul>
-            <li><i class="fas fa-mug-hot"></i> Java</li>
-            <li><i class="devicon-python-plain"></i> Python</li>
-            <li><i class="devicon-c-plain"></i> C</li>
-            <li><i class="devicon-cplusplus-plain"></i> C++</li>
-            <li><i class="devicon-csharp-plain"></i> C#</li>
-          </ul>
+      <div class="skills-grid">
+        <div class="skill-card">
+          <h4>Engineering &amp; Systems</h4>
+          <div class="skill-pills">
+            <span>Java</span>
+            <span>Python</span>
+            <span>C</span>
+            <span>C++</span>
+            <span>C#</span>
+            <span>JavaScript</span>
+            <span>HTML</span>
+            <span>CSS</span>
+            <span>Android (Kotlin/Java)</span>
+            <span>iOS (Objective-C)</span>
+            <span>Embedded Systems</span>
+            <span>MySQL</span>
+            <span>AWS</span>
+            <span>Firebase</span>
+            <span>Amazon S3</span>
+            <span>Git</span>
+          </div>
         </div>
-        <div class="skills-col">
-          <h4>AI/ML</h4>
-          <ul>
-            <li><i class="devicon-tensorflow-original"></i> TensorFlow</li>
-            <li><i class="fas fa-k"></i> Keras</li>
-            <li><i class="devicon-jupyter-plain"></i> Jupyter</li>
-            <li><i class="devicon-pandas-plain"></i> Pandas</li>
-            <li><i class="devicon-pytorch-original"></i> PyTorch</li>
-            <li><i class="fas fa-brain"></i> NLP</li>
-            <li><i class="fas fa-robot"></i> LLMs</li>
-          </ul>
+
+        <div class="skill-card">
+          <h4>AI / ML</h4>
+          <div class="skill-pills">
+            <span>TensorFlow</span>
+            <span>PyTorch</span>
+            <span>Keras</span>
+            <span>Jupyter</span>
+            <span>Pandas</span>
+            <span>NLP</span>
+            <span>LLMs</span>
+          </div>
         </div>
-        <div class="skills-col">
-          <h4>Tools &amp; Infrastructure</h4>
-          <ul>
-            <li><i class="fab fa-git-alt"></i> Git</li>
-            <li><i class="fas fa-fire"></i> Firebase</li>
-            <li><i class="fas fa-cloud"></i> Amazon S3</li>
-            <li><i class="fas fa-credit-card"></i> Payments</li>
-            <li><i class="fas fa-fingerprint"></i> Biometrics</li>
-            <li><i class="devicon-embeddedc-plain"></i> Embedded Systems</li>
-          </ul>
-        </div>
-        <div class="skills-col">
-          <h4>Mobile Apps</h4>
-          <ul>
-            <li><i class="fab fa-android"></i> Android (Java/Kotlin)</li>
-            <li><i class="fab fa-apple"></i> iOS (Objective-C)</li>
-          </ul>
-        </div>
-        <div class="skills-col">
-          <h4>Frontend</h4>
-          <ul>
-            <li><i class="fab fa-html5"></i> HTML</li>
-            <li><i class="fab fa-css3-alt"></i> CSS</li>
-            <li><i class="fab fa-js-square"></i> JavaScript</li>
-          </ul>
-        </div>
-        <div class="skills-col">
-          <h4>Backend</h4>
-          <ul>
-            <li><i class="fas fa-database"></i> MySQL</li>
-            <li><i class="fas fa-cloud"></i> AWS</li>
-          </ul>
-        </div>
-      </div>
-      <h3 class="section-subtitle">Project Management</h3>
-      <div class="skills-columns">
-        <div class="skills-col">
-          <ul>
-            <li><i class="fas fa-project-diagram"></i> Agile</li>
-            <li><i class="fas fa-network-wired"></i> Scrum</li>
-            <li><i class="fas fa-stream"></i> Waterfall</li>
-            <li><i class="fab fa-jira"></i> Jira</li>
-            <li><i class="fab fa-confluence"></i> Confluence</li>
-            <li><i class="fab fa-trello"></i> Trello</li>
-            <li><i class="devicon-azure-plain"></i> Azure</li>
-          </ul>
-        </div>
-        <div class="skills-col">
-          <ul>
-            <li><i class="fas fa-users"></i> Team Leadership</li>
-            <li><i class="fas fa-handshake"></i> Stakeholder Management</li>
-            <li><i class="fas fa-shield-alt"></i> Risk Management</li>
-            <li><i class="fas fa-user-check"></i> Client Communication</li>
-          </ul>
-        </div>
-        <div class="skills-col">
-          <ul>
-            <li><i class="fas fa-chart-line"></i> Reports &amp; Analytics</li>
-            <li><i class="fas fa-gears"></i> Resource Planning</li>
-            <li><i class="fas fa-lightbulb"></i> Decision-Making</li>
-            <li><i class="fas fa-users-gear"></i> Cross-functional Collaboration</li>
-            <li><i class="fas fa-tools"></i> Problem Solving</li>
-          </ul>
+
+        <div class="skill-card">
+          <h4>Leadership &amp; Delivery</h4>
+          <div class="skill-pills">
+            <span>Agile</span>
+            <span>Scrum</span>
+            <span>Waterfall</span>
+            <span>Jira</span>
+            <span>Confluence</span>
+            <span>Trello</span>
+            <span>Azure</span>
+            <span>Team Leadership</span>
+            <span>Stakeholder Management</span>
+            <span>Risk Management</span>
+            <span>Client Communication</span>
+            <span>Resource Planning</span>
+            <span>Cross-functional Collaboration</span>
+            <span>Problem Solving</span>
+            <span>Reports &amp; Analytics</span>
+            <span>Decision-Making</span>
+          </div>
         </div>
       </div>
     </section>
