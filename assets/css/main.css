@@ -93,6 +93,7 @@ body {
   letter-spacing: 0.04em;
   color: #aaa;
   margin-bottom: 12px;
+  text-align: center;
 }
 .projects-grid {
   margin-top: 1rem;
