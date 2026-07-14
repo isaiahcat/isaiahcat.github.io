@@ -1,0 +1,38 @@
+<div class="modal-box" id="modal-{{ project.permalink | remove: '/projects/' | remove: '/' }}">
+  <button class="modal-close" aria-label="Close">✕</button>
+  <div class="project-detail-header">
+    {% if project.track %}
+      <span class="track-badge {{ project.track }}">
+        {% if project.track == 'swe' %}Software Engineering
+        {% elsif project.track == 'teaching' %}Teaching
+        {% else %}Personal{% endif %}
+      </span>
+    {% endif %}
+    <h1 style="font-size: 20px; margin: 0.5rem 0 0.25rem;">{{ project.title }}</h1>
+    <p class="job-title">{{ project.description }}</p>
+    <p class="project-meta">
+      {% if project.type == 'academic' %}School Project{% elsif project.type == 'professional' %}Professional{% else %}Personal Project{% endif %}
+      {% if project.date_range %} · {{ project.date_range }}{% endif %}
+    </p>
+  </div>
+
+  {% if project.image %}
+    <img src="{{ project.image | relative_url }}" alt="{{ project.title }}" class="project-detail-image" style="background-color: {{ project.image_bg | default: '#f4f3f0' }}">
+  {% endif %}
+
+  <div class="project-tech" style="justify-content: center; margin-bottom: 1.5rem;">
+    {% for tech in project.tech %}
+      <span>{{ tech }}</span>
+    {% endfor %}
+  </div>
+
+  <div class="project-detail-body">
+    {{ project.content }}
+  </div>
+
+  <div class="project-detail-links">
+    {% if project.link %}
+      <a href="{{ project.link }}" target="_blank" class="button-primary">View Project</a>
+    {% endif %}
+  </div>
+</div>
