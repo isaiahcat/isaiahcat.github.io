@@ -11,6 +11,6 @@ featured: true
 priority: 1
 link: https://play.google.com/store/apps
 date: 2020-09-01
-date_range: "Oct 2018 – Sep 2020"
+date_range: "Oct 2018 - Sep 2020"
 ---
 Developed new features across risk and data, user management, eKYC, and app analytics teams. Implemented Agile/Scrum workflows and CI/CD pipelines, reducing deployment time by ~25%.
