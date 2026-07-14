@@ -10,5 +10,7 @@ type: personal
 featured: true
 priority: 3
 link: https://github.com/isaiahcat
+date: 2025-05-01
+date_range: "Apr 2025 – May 2025"
 ---
 Interrupt-driven handling for smoke, vibration, and PIR motion sensors. State machines for fire alarm, security, and door automation with priority resolution. Built on an STM32F429ZI with a keypad/I2C-LCD interface.
