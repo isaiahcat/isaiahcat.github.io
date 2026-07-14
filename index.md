@@ -45,7 +45,7 @@ title: Home
       </div>
 
       <div class="projects-grid" id="all-projects-grid">
-        {% assign all_projects = site.projects | sort: "priority" %}
+        {% assign all_projects = site.projects | sort: "date" | reverse %}
         {% for project in all_projects %}
           {% include project-card.html project=project %}
         {% endfor %}
@@ -155,6 +155,12 @@ title: Home
   </div>
 </div>
 
+<div class="modal-overlay" id="project-modal-overlay">
+  {% for project in site.projects %}
+    {% include project-modal.html project=project %}
+  {% endfor %}
+</div>
+
 <script>
 (function() {
   const searchInput = document.getElementById('project-search');
@@ -221,5 +227,66 @@ title: Home
       }
     });
   }
+
+  // ---- Project modal ----
+  const overlay = document.getElementById('project-modal-overlay');
+  const modalBoxes = document.querySelectorAll('.modal-box');
+
+  function closeModal() {
+    modalBoxes.forEach(m => m.style.display = 'none');
+    overlay.classList.remove('active');
+    document.body.classList.remove('modal-open');
+  }
+
+  function openModalBySlug(slug) {
+    const modal = document.getElementById('modal-' + slug);
+    if (!modal) return false;
+    modalBoxes.forEach(m => m.style.display = 'none');
+    modal.style.display = 'block';
+    overlay.classList.add('active');
+    document.body.classList.add('modal-open');
+    return true;
+  }
+
+  document.querySelectorAll('.project-card-trigger').forEach(trigger => {
+    trigger.addEventListener('click', function(e) {
+      const card = trigger.closest('.project-card');
+      const slug = card.getAttribute('data-slug');
+      if (openModalBySlug(slug)) {
+        e.preventDefault();
+        history.pushState({ modal: slug }, '', trigger.getAttribute('href'));
+      }
+    });
+  });
+
+  overlay.addEventListener('click', function(e) {
+    if (e.target === overlay) {
+      closeModal();
+      history.pushState({}, '', '/#projects');
+    }
+  });
+
+  document.querySelectorAll('.modal-close').forEach(btn => {
+    btn.addEventListener('click', function() {
+      closeModal();
+      history.pushState({}, '', '/#projects');
+    });
+  });
+
+  document.addEventListener('keydown', function(e) {
+    if (e.key === 'Escape' && overlay.classList.contains('active')) {
+      closeModal();
+      history.pushState({}, '', '/#projects');
+    }
+  });
+
+  window.addEventListener('popstate', function() {
+    const match = window.location.pathname.match(/^\/projects\/([^\/]+)\/?$/);
+    if (match) {
+      openModalBySlug(match[1]);
+    } else {
+      closeModal();
+    }
+  });
 })();
 </script>
