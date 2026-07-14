@@ -13,4 +13,4 @@ link: https://github.com/isaiahcat
 date: 2022-12-01
 date_range: "Aug 2022 - Dec 2022"
 ---
-Led an Agile team as Scrum Master and designed a clean UI to simulate an autonomous lawnmower, featuring obstacle avoidance and smart shutdown, for non-technical stakeholders within a fixed 8-week timeline.
+Coordinated sprint planning and team organization for an Agile team developing a simulated autonomous lawnmower with obstacle avoidance and safety shutoff behaviors. Designed simple UI flows to help non-technical stakeholders visualize system behavior and progress.

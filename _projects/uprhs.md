@@ -13,4 +13,9 @@ link: https://github.com/isaiahcat
 date: 2015-05-01
 date_range: "Jan 2015 - May 2015"
 ---
-Managed development of a student portal for UP Rural High School as Project Manager, directing a 20-person team, digitizing grades, and streamlining registration.
+Led the development of a web-based platform for UP Rural High School to replace manual grade encoding and class registration. Coordinated a 20-person development team and worked directly with school administrators and teachers to refine requirements and deliver a secure, real-time system.
+
+Key Contributions:
+- Stakeholder communication & requirements gathering
+- Sprint planning, stand-ups, retrospectives
+- Cross-functional team coordination
