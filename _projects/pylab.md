@@ -6,8 +6,8 @@ image_bg: "#253852"
 title: PyLab
 description: Free online Python environment designed for teaching and learning.
 tech: [Python, JavaScript, HTML, CSS]
-track: teaching
 type: personal
+educational: true
 featured: false
 priority: 5
 link: https://github.com/isaiahcat/pylab

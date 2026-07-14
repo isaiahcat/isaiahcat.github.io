@@ -329,25 +329,15 @@ body {
   display: none;
 }
 
-.track-badge {
+.badge-teaching {
   display: inline-block;
   font-size: 11px;
   letter-spacing: 0.02em;
   padding: 2px 9px;
   border-radius: 20px;
   font-weight: 500;
-}
-.track-badge.swe {
-  background: #E6F1FB;
-  color: #185FA5;
-}
-.track-badge.teaching {
   background: #E1F5EE;
   color: #0F6E56;
-}
-.track-badge.personal {
-  background: #FAECE7;
-  color: #993C1D;
 }
 
 .no-results {

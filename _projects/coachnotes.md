@@ -5,8 +5,8 @@ image: /assets/images/coachnotes.png
 title: CoachNotes
 description: Self-built lesson-planning dashboard with AI-assisted prep, in active production use.
 tech: [Google Apps Script, Claude API, Pike13 API]
-track: teaching
 type: personal
+educational: true
 featured: true
 priority: 2
 link: https://github.com/isaiahcat

@@ -5,8 +5,8 @@ image: /assets/images/lawnchopchop.png
 title: "Lawn Chop Chop: Robotic Lawnmower Simulation"
 description: Agile-led simulation of an autonomous lawnmower with obstacle avoidance.
 tech: [Agile, Scrum, UI/UX Design]
-track: swe
 type: academic
+educational: false
 featured: false
 priority: 7
 link: https://github.com/isaiahcat

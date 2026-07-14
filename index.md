@@ -38,10 +38,11 @@ title: Home
       </div>
 
       <div class="tag-filters" id="tag-filters">
-        <button class="tag-filter active" data-track="all">All</button>
-        <button class="tag-filter" data-track="swe">Software Engineering</button>
-        <button class="tag-filter" data-track="teaching">Teaching</button>
-        <button class="tag-filter" data-track="personal">Personal</button>
+        <button class="tag-filter active" data-filter="all">All</button>
+        <button class="tag-filter" data-filter="teaching">Teaching</button>
+        <button class="tag-filter" data-filter="academic">Academic</button>
+        <button class="tag-filter" data-filter="industry">Industry</button>
+        <button class="tag-filter" data-filter="personal">Personal</button>
       </div>
 
       <div class="projects-grid" id="all-projects-grid">
@@ -167,21 +168,21 @@ title: Home
   const tagButtons = document.querySelectorAll('.tag-filter');
   const cards = document.querySelectorAll('#all-projects-grid .project-card');
   const noResults = document.getElementById('no-results');
-  let activeTrack = 'all';
+  let activeFilter = 'all';
 
   function applyFilters() {
     const query = searchInput.value.trim().toLowerCase();
     let visibleCount = 0;
 
     cards.forEach(card => {
-      const track = card.getAttribute('data-track');
+      const filters = (card.getAttribute('data-filters') || '').split(',');
       const tech = card.getAttribute('data-tech') || '';
       const title = card.getAttribute('data-title') || '';
 
-      const matchesTrack = activeTrack === 'all' || track === activeTrack;
+      const matchesFilter = activeFilter === 'all' || filters.includes(activeFilter);
       const matchesQuery = query === '' || title.includes(query) || tech.includes(query);
 
-      const visible = matchesTrack && matchesQuery;
+      const visible = matchesFilter && matchesQuery;
       card.hidden = !visible;
       if (visible) visibleCount++;
     });
@@ -195,7 +196,7 @@ title: Home
     btn.addEventListener('click', () => {
       tagButtons.forEach(b => b.classList.remove('active'));
       btn.classList.add('active');
-      activeTrack = btn.getAttribute('data-track');
+      activeFilter = btn.getAttribute('data-filter');
       applyFilters();
     });
   });

@@ -1,19 +1,15 @@
-<div class="project-card" data-track="{{ project.track }}" data-tech="{{ project.tech | join: ',' | downcase }}" data-title="{{ project.title | downcase }}" data-slug="{{ project.permalink | remove: '/projects/' | remove: '/' }}">
+<div class="project-card" data-filters="{{ project.type }}{% if project.educational %},teaching{% endif %}" data-tech="{{ project.tech | join: ',' | downcase }}" data-title="{{ project.title | downcase }}" data-slug="{{ project.permalink | remove: '/projects/' | remove: '/' }}">
   <a class="project-link project-card-trigger" href="{{ project.url | relative_url }}">
     <div class="project-image" style="background-color: {{ project.image_bg | default: '#f4f3f0' }}">
       <img src="{{ project.image }}" alt="{{ project.title }}">
     </div>
     <div class="project-content">
-      {% if project.track %}
-        <span class="track-badge {{ project.track }}">
-          {% if project.track == 'swe' %}Software Engineering
-          {% elsif project.track == 'teaching' %}Teaching
-          {% else %}Personal{% endif %}
-        </span>
+      {% if project.educational %}
+        <span class="badge-teaching">Teaching / EdTech</span>
       {% endif %}
       <h3 class="project-title">{{ project.title }}</h3>
       <p class="project-meta">
-        {% if project.type == 'academic' %}School Project{% elsif project.type == 'professional' %}Professional{% else %}Personal Project{% endif %}
+        {% if project.type == 'academic' %}Academic{% elsif project.type == 'industry' %}Industry{% else %}Personal{% endif %}
         {% if project.date_range %} · {{ project.date_range }}{% endif %}
       </p>
       <p class="project-description">{{ project.description }}</p>

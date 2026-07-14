@@ -1,17 +1,13 @@
 <div class="modal-box" id="modal-{{ project.permalink | remove: '/projects/' | remove: '/' }}">
   <button class="modal-close" aria-label="Close">✕</button>
   <div class="project-detail-header">
-    {% if project.track %}
-      <span class="track-badge {{ project.track }}">
-        {% if project.track == 'swe' %}Software Engineering
-        {% elsif project.track == 'teaching' %}Teaching
-        {% else %}Personal{% endif %}
-      </span>
+    {% if project.educational %}
+      <span class="badge-teaching">Teaching / EdTech</span>
     {% endif %}
     <h1 style="font-size: 20px; margin: 0.5rem 0 0.25rem;">{{ project.title }}</h1>
     <p class="job-title">{{ project.description }}</p>
     <p class="project-meta">
-      {% if project.type == 'academic' %}School Project{% elsif project.type == 'professional' %}Professional{% else %}Personal Project{% endif %}
+      {% if project.type == 'academic' %}Academic{% elsif project.type == 'industry' %}Industry{% else %}Personal{% endif %}
       {% if project.date_range %} · {{ project.date_range }}{% endif %}
     </p>
   </div>

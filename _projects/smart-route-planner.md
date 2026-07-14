@@ -5,8 +5,8 @@ image: /assets/images/smart-route.png
 title: Smart Route Planner
 description: Optimizes travel routes for your Google Calendar with Google Maps.
 tech: [Google Apps Script, Workspace]
-track: personal
 type: personal
+educational: false
 featured: false
 priority: 4
 link: https://isaiahcat.github.io/smart-route-planner
