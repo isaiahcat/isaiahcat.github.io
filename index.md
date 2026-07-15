@@ -8,6 +8,7 @@ title: Home
 
     <!-- HERO -->
     <div class="header" style="text-align: center; margin-bottom: 1rem;">
+      <div class="hero-avatar">IB</div>
       <h1 style="font-size: 24px; font-weight: 500; margin: 0;">Isaiah Butler</h1>
       <p class="job-title">Software Engineer &amp; Programming Educator</p>
       <p style="max-width: 28rem; margin: 0.6rem auto 0; font-size: 13px; color: #888; line-height: 1.6;">
