@@ -147,7 +147,6 @@ body {
   font-weight: 500;
   color: #666;
   text-decoration: none;
-  background: #f4f3f0;
   border-top: 0.5px solid #e8e5df;
   transition: background-color 0.15s ease, color 0.15s ease;
 }
