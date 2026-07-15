@@ -9,6 +9,7 @@ type: personal
 educational: false
 featured: false
 priority: 9
+link: /assets/tools/strong-to-fit.html
 date: 2026-07-01
 date_range: "Jul 2026"
 ---
