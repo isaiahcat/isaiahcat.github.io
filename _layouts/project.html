@@ -15,13 +15,6 @@
         <a href="{{ '/#projects' | relative_url }}" class="project-detail-back">&larr; Back to all projects</a>
 
         <div class="project-detail-header">
-          {% if page.track %}
-            <span class="track-badge {{ page.track }}">
-              {% if page.track == 'swe' %}Software Engineering
-              {% elsif page.track == 'teaching' %}Teaching
-              {% else %}Personal{% endif %}
-            </span>
-          {% endif %}
           <h1>{{ page.title }}</h1>
           <p class="job-title">{{ page.description }}</p>
         </div>
